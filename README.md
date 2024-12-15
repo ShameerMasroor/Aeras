@@ -11,7 +11,8 @@ Welcome to our **Mobile Robotics Project!** This repository contains all the nec
 - [Acknowledgements](#acknowledgements)  
 - [Getting Started](#getting-started)  
 - [Installation](#installation)  
-- [Usage](#usage)  
+- [Usage](#usage)
+- [People behind the project] (#people)
 
 
 ---
@@ -178,5 +179,6 @@ sudo apt install ros-humble-rviz-imu-plugin
 ```  
 
 ---
-
+## **People**
+This project was lovingly made by Zaryan, Maleeha, and Shameer, all three of which go under the name of Zarmasha.
 
