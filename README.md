@@ -158,8 +158,8 @@ cd FASTLIOROS2
 
 # Launch FASTLIO2  
 ros2 launch fast_lio mapping.launch.py  
-```  
-
+```
+> **Note:** It is recommended to run only one of the SLAM packages at a time.
 ### **4. Teleoperate the Drone**  
 
 You can control the drone using either **xterm** or a **Gamepad**.  
