@@ -12,7 +12,7 @@ Welcome to our **Mobile Robotics Project!** This repository contains all the nec
 - [Getting Started](#getting-started)  
 - [Installation](#installation)  
 - [Usage](#usage)
-- [People behind the project] (#people)
+- [People behind the project](#people)
 
 
 ---
