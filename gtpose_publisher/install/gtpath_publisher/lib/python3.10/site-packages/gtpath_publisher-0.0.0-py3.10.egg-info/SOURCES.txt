@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/gtpath_publisher/gtpath_publisher.egg-info/PKG-INFO
+../../build/gtpath_publisher/gtpath_publisher.egg-info/SOURCES.txt
+../../build/gtpath_publisher/gtpath_publisher.egg-info/dependency_links.txt
+../../build/gtpath_publisher/gtpath_publisher.egg-info/entry_points.txt
+../../build/gtpath_publisher/gtpath_publisher.egg-info/requires.txt
+../../build/gtpath_publisher/gtpath_publisher.egg-info/top_level.txt
+../../build/gtpath_publisher/gtpath_publisher.egg-info/zip-safe
+gtpath_publisher/__init__.py
+resource/gtpath_publisher
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

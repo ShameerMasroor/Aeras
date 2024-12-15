@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.001300] (gtpath_publisher) JobQueued: {'identifier': 'gtpath_publisher', 'dependencies': OrderedDict()}
+[0.003150] (gtpath_publisher) JobStarted: {'identifier': 'gtpath_publisher'}
+[0.099039] (-) TimerEvent: {}
+[0.199599] (-) TimerEvent: {}
+[0.300178] (-) TimerEvent: {}
+[0.400657] (-) TimerEvent: {}
+[0.501236] (-) TimerEvent: {}
+[0.601700] (-) TimerEvent: {}
+[0.702211] (-) TimerEvent: {}
+[0.802688] (-) TimerEvent: {}
+[0.903228] (-) TimerEvent: {}
+[1.003682] (-) TimerEvent: {}
+[1.104154] (-) TimerEvent: {}
+[1.204692] (-) TimerEvent: {}
+[1.305251] (-) TimerEvent: {}
+[1.405982] (-) TimerEvent: {}
+[1.506493] (-) TimerEvent: {}
+[1.606970] (-) TimerEvent: {}
+[1.615984] (gtpath_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gtpath_publisher', 'build', '--build-base', '/home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher/build', 'install', '--record', '/home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shameer/Documents/SLAM/gtpose_publisher/src/gtpath_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'shameer', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/shameer', 'OLDPWD': '/home/shameer/Documents/SLAM', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1107', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=83e884def0b4dcb2acfafd826752e221', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'shameer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shameer', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/shameer-HP-ZBook-14u-G5:@/tmp/.ICE-unix/1107,unix/shameer-HP-ZBook-14u-G5:/tmp/.ICE-unix/1107', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ef089c6e_4657_4fb7_b733_15c04bbd2e6d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.UG8BY2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.350', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'INSIDE_NAUTILUS_PYTHON': '', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': ':/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=83e884def0b4dcb2acfafd826752e221', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/shameer/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.707087] (-) TimerEvent: {}
+[1.807507] (-) TimerEvent: {}
+[1.908039] (-) TimerEvent: {}
+[2.008465] (-) TimerEvent: {}
+[2.109193] (-) TimerEvent: {}
+[2.207837] (gtpath_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[2.209349] (-) TimerEvent: {}
+[2.209979] (gtpath_publisher) StdoutLine: {'line': b'creating ../../build/gtpath_publisher/gtpath_publisher.egg-info\n'}
+[2.210675] (gtpath_publisher) StdoutLine: {'line': b'writing ../../build/gtpath_publisher/gtpath_publisher.egg-info/PKG-INFO\n'}
+[2.211264] (gtpath_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/gtpath_publisher/gtpath_publisher.egg-info/dependency_links.txt\n'}
+[2.211744] (gtpath_publisher) StdoutLine: {'line': b'writing entry points to ../../build/gtpath_publisher/gtpath_publisher.egg-info/entry_points.txt\n'}
+[2.212274] (gtpath_publisher) StdoutLine: {'line': b'writing requirements to ../../build/gtpath_publisher/gtpath_publisher.egg-info/requires.txt\n'}
+[2.212651] (gtpath_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/gtpath_publisher/gtpath_publisher.egg-info/top_level.txt\n'}
+[2.213111] (gtpath_publisher) StdoutLine: {'line': b"writing manifest file '../../build/gtpath_publisher/gtpath_publisher.egg-info/SOURCES.txt'\n"}
+[2.218129] (gtpath_publisher) StdoutLine: {'line': b"reading manifest file '../../build/gtpath_publisher/gtpath_publisher.egg-info/SOURCES.txt'\n"}
+[2.220560] (gtpath_publisher) StdoutLine: {'line': b"writing manifest file '../../build/gtpath_publisher/gtpath_publisher.egg-info/SOURCES.txt'\n"}
+[2.221196] (gtpath_publisher) StdoutLine: {'line': b'running build\n'}
+[2.222278] (gtpath_publisher) StdoutLine: {'line': b'running build_py\n'}
+[2.222775] (gtpath_publisher) StdoutLine: {'line': b'creating /home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher/build\n'}
+[2.223088] (gtpath_publisher) StdoutLine: {'line': b'creating /home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher/build/lib\n'}
+[2.223424] (gtpath_publisher) StdoutLine: {'line': b'creating /home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher/build/lib/gtpath_publisher\n'}
+[2.224041] (gtpath_publisher) StdoutLine: {'line': b'copying gtpath_publisher/__init__.py -> /home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher/build/lib/gtpath_publisher\n'}
+[2.224348] (gtpath_publisher) StdoutLine: {'line': b'running install\n'}
+[2.224716] (gtpath_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[2.225802] (gtpath_publisher) StdoutLine: {'line': b'creating /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/lib/python3.10/site-packages/gtpath_publisher\n'}
+[2.226393] (gtpath_publisher) StdoutLine: {'line': b'copying /home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher/build/lib/gtpath_publisher/__init__.py -> /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/lib/python3.10/site-packages/gtpath_publisher\n'}
+[2.227665] (gtpath_publisher) StdoutLine: {'line': b'byte-compiling /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/lib/python3.10/site-packages/gtpath_publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[2.228758] (gtpath_publisher) StdoutLine: {'line': b'running install_data\n'}
+[2.229558] (gtpath_publisher) StdoutLine: {'line': b'creating /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/share/ament_index\n'}
+[2.229993] (gtpath_publisher) StdoutLine: {'line': b'creating /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/share/ament_index/resource_index\n'}
+[2.230184] (gtpath_publisher) StdoutLine: {'line': b'creating /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/share/ament_index/resource_index/packages\n'}
+[2.230453] (gtpath_publisher) StdoutLine: {'line': b'copying resource/gtpath_publisher -> /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/share/ament_index/resource_index/packages\n'}
+[2.230737] (gtpath_publisher) StdoutLine: {'line': b'copying package.xml -> /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/share/gtpath_publisher\n'}
+[2.230936] (gtpath_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.236515] (gtpath_publisher) StdoutLine: {'line': b'Copying ../../build/gtpath_publisher/gtpath_publisher.egg-info to /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/lib/python3.10/site-packages/gtpath_publisher-0.0.0-py3.10.egg-info\n'}
+[2.239346] (gtpath_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[2.304712] (gtpath_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher/install.log'\n"}
+[2.309494] (-) TimerEvent: {}
+[2.365853] (gtpath_publisher) CommandEnded: {'returncode': 0}
+[2.382803] (gtpath_publisher) JobEnded: {'identifier': 'gtpath_publisher', 'rc': 0}
+[2.384043] (-) EventReactorShutdown: {}

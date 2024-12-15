@@ -1,0 +1,47 @@
+running egg_info
+creating build/sjtu_drone_control/sjtu_drone_control.egg-info
+writing build/sjtu_drone_control/sjtu_drone_control.egg-info/PKG-INFO
+writing dependency_links to build/sjtu_drone_control/sjtu_drone_control.egg-info/dependency_links.txt
+writing entry points to build/sjtu_drone_control/sjtu_drone_control.egg-info/entry_points.txt
+writing requirements to build/sjtu_drone_control/sjtu_drone_control.egg-info/requires.txt
+writing top-level names to build/sjtu_drone_control/sjtu_drone_control.egg-info/top_level.txt
+writing manifest file 'build/sjtu_drone_control/sjtu_drone_control.egg-info/SOURCES.txt'
+reading manifest file 'build/sjtu_drone_control/sjtu_drone_control.egg-info/SOURCES.txt'
+writing manifest file 'build/sjtu_drone_control/sjtu_drone_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shameer/sjtu_drone-ros2/sjtu_drone_control/build/sjtu_drone_control/build
+creating /home/shameer/sjtu_drone-ros2/sjtu_drone_control/build/sjtu_drone_control/build/lib
+creating /home/shameer/sjtu_drone-ros2/sjtu_drone_control/build/sjtu_drone_control/build/lib/sjtu_drone_control
+copying sjtu_drone_control/teleop.py -> /home/shameer/sjtu_drone-ros2/sjtu_drone_control/build/sjtu_drone_control/build/lib/sjtu_drone_control
+copying sjtu_drone_control/drone_position_control.py -> /home/shameer/sjtu_drone-ros2/sjtu_drone_control/build/sjtu_drone_control/build/lib/sjtu_drone_control
+copying sjtu_drone_control/open_loop_control.py -> /home/shameer/sjtu_drone-ros2/sjtu_drone_control/build/sjtu_drone_control/build/lib/sjtu_drone_control
+copying sjtu_drone_control/teleop_joystick.py -> /home/shameer/sjtu_drone-ros2/sjtu_drone_control/build/sjtu_drone_control/build/lib/sjtu_drone_control
+copying sjtu_drone_control/__init__.py -> /home/shameer/sjtu_drone-ros2/sjtu_drone_control/build/sjtu_drone_control/build/lib/sjtu_drone_control
+running install
+running install_lib
+creating /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+copying /home/shameer/sjtu_drone-ros2/sjtu_drone_control/build/sjtu_drone_control/build/lib/sjtu_drone_control/teleop.py -> /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+copying /home/shameer/sjtu_drone-ros2/sjtu_drone_control/build/sjtu_drone_control/build/lib/sjtu_drone_control/drone_position_control.py -> /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+copying /home/shameer/sjtu_drone-ros2/sjtu_drone_control/build/sjtu_drone_control/build/lib/sjtu_drone_control/open_loop_control.py -> /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+copying /home/shameer/sjtu_drone-ros2/sjtu_drone_control/build/sjtu_drone_control/build/lib/sjtu_drone_control/teleop_joystick.py -> /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+copying /home/shameer/sjtu_drone-ros2/sjtu_drone_control/build/sjtu_drone_control/build/lib/sjtu_drone_control/__init__.py -> /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control
+byte-compiling /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/teleop.py to teleop.cpython-310.pyc
+byte-compiling /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/drone_position_control.py to drone_position_control.cpython-310.pyc
+byte-compiling /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/open_loop_control.py to open_loop_control.cpython-310.pyc
+byte-compiling /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/teleop_joystick.py to teleop_joystick.cpython-310.pyc
+byte-compiling /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/share/ament_index
+creating /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/share/ament_index/resource_index
+creating /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/share/ament_index/resource_index/packages
+copying resource/sjtu_drone_control -> /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/share/sjtu_drone_control
+running install_egg_info
+Copying build/sjtu_drone_control/sjtu_drone_control.egg-info to /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/python3.10/site-packages/sjtu_drone_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing drone_position_control script to /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing open_loop_control script to /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing teleop script to /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/sjtu_drone_control
+Installing teleop_joystick script to /home/shameer/sjtu_drone-ros2/sjtu_drone_control/install/sjtu_drone_control/lib/sjtu_drone_control
+writing list of installed files to '/home/shameer/sjtu_drone-ros2/sjtu_drone_control/build/sjtu_drone_control/install.log'

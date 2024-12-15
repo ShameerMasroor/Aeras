@@ -1,0 +1,6 @@
+[console_scripts]
+drone_position_control = sjtu_drone_control.drone_position_control:main
+open_loop_control = sjtu_drone_control.open_loop_control:main
+teleop = sjtu_drone_control.teleop:main
+teleop_joystick = sjtu_drone_control.teleop_joystick:main
+

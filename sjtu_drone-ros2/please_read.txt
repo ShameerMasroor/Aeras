@@ -1,0 +1,17 @@
+Put the tree_models folder in the gazebo-11 directory at /usr/share/gazebo-11
+
+To get the RVIZ IMU Plugin working, install the plugin using
+
+sudo apt update
+sudo apt install ros-humble-rviz-imu-plugin
+
+To get the X-terminal window running to control your drone
+
+sudo apt update
+sudo apt install xterm
+
+
+
+To find out where the ground_truth is being published from,
+
+open the plugin_drone.cpp file. It shows that World is being accessed from Gazebo, and pose is being obtained from World.

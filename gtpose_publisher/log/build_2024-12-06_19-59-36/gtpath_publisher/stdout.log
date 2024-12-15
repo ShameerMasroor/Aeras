@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/gtpath_publisher/gtpath_publisher.egg-info
+writing ../../build/gtpath_publisher/gtpath_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/gtpath_publisher/gtpath_publisher.egg-info/dependency_links.txt
+writing entry points to ../../build/gtpath_publisher/gtpath_publisher.egg-info/entry_points.txt
+writing requirements to ../../build/gtpath_publisher/gtpath_publisher.egg-info/requires.txt
+writing top-level names to ../../build/gtpath_publisher/gtpath_publisher.egg-info/top_level.txt
+writing manifest file '../../build/gtpath_publisher/gtpath_publisher.egg-info/SOURCES.txt'
+reading manifest file '../../build/gtpath_publisher/gtpath_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/gtpath_publisher/gtpath_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher/build
+creating /home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher/build/lib
+creating /home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher/build/lib/gtpath_publisher
+copying gtpath_publisher/__init__.py -> /home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher/build/lib/gtpath_publisher
+running install
+running install_lib
+creating /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/lib/python3.10/site-packages/gtpath_publisher
+copying /home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher/build/lib/gtpath_publisher/__init__.py -> /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/lib/python3.10/site-packages/gtpath_publisher
+byte-compiling /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/lib/python3.10/site-packages/gtpath_publisher/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/share/ament_index
+creating /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/share/ament_index/resource_index
+creating /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/share/ament_index/resource_index/packages
+copying resource/gtpath_publisher -> /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/share/gtpath_publisher
+running install_egg_info
+Copying ../../build/gtpath_publisher/gtpath_publisher.egg-info to /home/shameer/Documents/SLAM/gtpose_publisher/install/gtpath_publisher/lib/python3.10/site-packages/gtpath_publisher-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/shameer/Documents/SLAM/gtpose_publisher/build/gtpath_publisher/install.log'
