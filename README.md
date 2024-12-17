@@ -12,6 +12,7 @@ Welcome to our **Mobile Robotics Project!** This repository contains all the nec
 - [Getting Started](#getting-started)  
 - [Installation](#installation)  
 - [Usage](#usage)
+- [Changing Worlds](#changing-gazebo-worlds)
 - [People behind the project](#people)
 
 
@@ -120,7 +121,7 @@ colcon build --packages-select scanmatcher
 cd sjtu_drone  
 colcon build  
 ```  
-
+> **Note:** We found that for machines having 8GB of RAM or below may freeze or become unresponsive during the building step. Build packages individually in that case. 
 ---
 
 ## **Usage**  
@@ -163,7 +164,7 @@ ros2 launch fast_lio mapping.launch.py
 > **Note:** It is recommended to run only one of the SLAM packages at a time.
 ### **4. Teleoperate the Drone**  
 
-You can control the drone using either **xterm** or a **Gamepad**.  
+You can control the drone using either **xterm** or a **Gamepad**. Xterm is enabled by default, but you can switch to use a gamepad by commenting out the code for xterm in the ```sjtu_drone_bringup.launch.py ``` file.  
 
 #### Install xterm  
 
@@ -177,6 +178,10 @@ sudo apt install xterm
 ```bash  
 sudo apt install ros-humble-rviz-imu-plugin  
 ```  
+
+### Changing Gazebo Worlds
+
+A number of test worlds are provided in the sjtu_drone_description directory. You can set which world to use by changing worlds in the sjtu_drone_gazebo.launch.py file.
 
 ---
 ## **People**
