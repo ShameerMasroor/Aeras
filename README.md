@@ -30,7 +30,7 @@ This project focuses on creating a versatile UAV platform for mapping and locali
 
 - **Simulation:** Full integration with **Gazebo Classic 11** for realistic forest environments.  
 - **Visualization:** 3D mapping and localization visualization using **RVIZ2**.  
-- **Teleoperation:** ROS2 nodes for autonomous flight, obstacle avoidance, and manual control.  
+- **Teleoperation:** ROS2 nodes for teleoperated flight, mapping, and localization.  
 - **Scalable Architecture:** Modular design for adding new sensors, controllers, or behaviors.  
 
 ---
