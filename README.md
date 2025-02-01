@@ -1,4 +1,4 @@
-# **LI-SLAM and FASTLIO2 for Teleoperated UAVs**  
+# **AURORA - LI-SLAM and FASTLIO2 for Teleoperated UAVs**  
 
 Welcome to our **Mobile Robotics Project!** This repository contains all the necessary resources to simulate, operate, and extend our teleoperated UAV system for mapping and localization in forest environments. The project leverages **ROS2**, **Gazebo Classic 11**, **RVIZ2**, and cutting-edge SLAM algorithms to deliver state-of-the-art performance.
 
