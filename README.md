@@ -4,7 +4,7 @@ Welcome to our **Mobile Robotics Project!** This repository contains all the nec
 
 ## Demo Video
 
-Watch the demonstration of the Ball and Beam Self-Balancing System:
+Watch the demonstration of forest mapping and localization system:
 
 [![Demo Video](Thumbnail.png)](https://youtu.be/zFVc0A3nOic)
 
