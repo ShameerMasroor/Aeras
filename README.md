@@ -6,7 +6,8 @@ Welcome to our **Mobile Robotics Project!** This repository contains all the nec
 
 Watch the demonstration of the Ball and Beam Self-Balancing System:
 
-[![Demo Video](Thumbnail.png)]([https://www.youtube.com/watch?v=Hrqu_teJLIM](https://youtu.be/zFVc0A3nOic))
+[![Demo Video](Thumbnail.png)](https://youtu.be/zFVc0A3nOic)
+
 
 
 ---
