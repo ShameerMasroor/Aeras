@@ -50,9 +50,9 @@ Our system leverages **LiDAR, IMU, and thermal cameras** mounted on UAVs to enab
 
 - ✅ First complete benchmarked SAR pipeline for forest environments  
 - 🔁 Evaluation of **LI-SLAM** vs. **FASTLIO2** under identical testbeds  
-- 🔥 Integration of thermal human detection using YOLOv8  
+- 🔥 Integration of thermal human detection via benchmarking of various nano and small variants of YOLOv8 through YOLOv12  
 - 📡 Autonomous and operator-assisted mission architecture  
-- 📊 Field-oriented performance benchmarking (exploration speed, SLAM RMSE, detection accuracy)
+- 📊 Field-oriented performance benchmarking (exploration speed, SLAM RMSE, detection accuracy, detection success etc.)
 
 ---
 
@@ -61,8 +61,8 @@ Our system leverages **LiDAR, IMU, and thermal cameras** mounted on UAVs to enab
 - 🛰️ Multi-UAV, ROS2-based architecture  
 - 🗺️ Real-time mapping using LiDAR-Inertial odometry  
 - 🔍 Frontier and probability-map exploration algorithms  
-- 🔥 YOLOv8-based thermal human detection  
-- 🧭 Path planning with RRT/bi-RRT + APF for collision-free travel  
+- 🔥 YOLO-based thermal human detection  
+- 🧭 Path planning with RRT/bi-RRT + APF for collision-free movement 
 - 📍 Victim localization with ≤5m accuracy
 
 ---
@@ -79,7 +79,7 @@ Our system leverages **LiDAR, IMU, and thermal cameras** mounted on UAVs to enab
 - Exploration logic
 - Target detection module (YOLO + Thermal)
 - 3D Path Planner
-- Return-to-base behavior
+- Motion Module
 
 ---
 
@@ -87,9 +87,11 @@ Our system leverages **LiDAR, IMU, and thermal cameras** mounted on UAVs to enab
 
 1. **SJTU Drone** – UAV model, control interfaces, and world setup  
 2. **LI-SLAM** – Pose-graph based SLAM for dense environments  
-3. **FASTLIO2** – Real-time, tightly coupled LiDAR-Inertial odometry  
-4. **Exploration Module** – Frontier, thermal, and probability-based logic  
-5. **Human Detection** – YOLOv8, trained on thermal forest imagery
+3. **FASTLIO2** – Real-time, tightly coupled LiDAR-Inertial odometry
+4. **Octomap** - Popular volumetric representation of obstacles and free-space
+5. **Open-Motion-Path-Planning Library** – For 3D path planning
+6. **Human Detection** – YOLOv8, trained on thermal forest imagery
+7. **Local APF-based reactive planner** - For avoiding obstacles partially mapped by the LiDAR
 
 ---
 
@@ -115,4 +117,64 @@ Our system leverages **LiDAR, IMU, and thermal cameras** mounted on UAVs to enab
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/ShameerMasroor/LI-SLAM-and-FASTLIO2-for-Teleoperated-UAVs.git
+git clone https://github.com/ShameerMasroor/Aurora-Multi-UAV-System-for-Forest-Search-and-Rescue.git
+
+```
+
+---
+
+## 🛠️ Installation
+
+- Assuming that you have ROS2 Humble and Gazebo Classic 11 installed, install the following libraries
+  
+```bash
+sudo apt update && sudo apt install -y \
+  terminator \
+  tzdata
+
+
+```
+
+- Installing package dependencies
+
+```bash
+sudo apt update && sudo apt install -y \
+  ros-humble-xacro \
+  ros-humble-joint-state-publisher \
+  ros-humble-pcl-ros \
+  ros-humble-octomap-msgs \
+  ros-humble-tf-transformations \
+  ros-humble-gazebo-ros-pkgs \
+  ros-humble-gazebo-ros2-control \
+  ros-humble-gazebo-plugins \
+  python3-colcon-common-extensions \
+  xterm \
+  libompl-dev && \
+pip install ultralytics supervision
+
+```
+
+- Uninstalling the pre-installed ROS2 OMPL library and installing from source
+
+```bash
+sudo apt remove -y libompl-dev ros-humble-ompl
+sudo apt update && sudo apt install -y \
+  cmake \
+  pkg-config \
+  libboost-all-dev \
+  python3-dev \
+  python3-pybind11 \
+  python3-numpy \
+  libeigen3-dev
+
+git clone https://github.com/ompl/ompl.git -b 1.6.0 --depth 1
+cd ompl
+
+mkdir -p build/Release
+cd build/Release
+cmake ../.. -DCMAKE_BUILD_TYPE=Release -DPYTHON_EXEC=/usr/bin/python3
+make -j$(nproc)
+sudo make install
+
+
+```
