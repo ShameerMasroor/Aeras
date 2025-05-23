@@ -1,197 +1,118 @@
-# **AURORA - LI-SLAM and FASTLIO2 for Teleoperated UAVs**  
+# 🌲 AURORA – Multi-UAV SAR System with LI-SLAM & FASTLIO2
 
-Welcome to our **Project!** This repository contains all the necessary resources to simulate, operate, and extend our teleoperated UAV system for mapping and localization in forest environments. The project leverages **ROS2**, **Gazebo Classic 11**, **RVIZ2**, and cutting-edge SLAM algorithms to deliver state-of-the-art performance.
+Welcome to **AURORA** – a modular, simulation-ready, multi-UAV system for **Search and Rescue (SAR)** in complex **forest environments**. Developed at **Habib University** as a final-year Capstone Project, AURORA integrates cutting-edge SLAM, path planning, and human detection technologies under one unified framework.
 
-## Demo Video
+Built with **ROS2 (Humble)**, **Gazebo Classic**, and real-time LiDAR-thermal SLAM pipelines, AURORA is purpose-designed for GPS-denied, under-canopy scenarios where traditional SAR efforts struggle.
 
-Watch the demonstration of forest mapping and localization system:
+---
+
+## 📺 Demo Video
+
+See AURORA in action – live mapping, autonomous flight, and human detection in a simulated dense forest:
 
 [![Demo Video](Thumbnail.png)](https://youtu.be/zFVc0A3nOic)
 
-
-
 ---
 
-## **Table of Contents**  
-- [Overview](#overview)  
-- [Features](#features)  
-- [Key Packages](#key-packages)  
-- [Acknowledgements](#acknowledgements)  
-- [Getting Started](#getting-started)  
-- [Installation](#installation)  
+## 📖 Table of Contents
+
+- [Overview](#overview)
+- [Key Contributions](#key-contributions)
+- [System Features](#system-features)
+- [Architecture Overview](#architecture-overview)
+- [Key Packages](#key-packages)
+- [Acknowledgements](#acknowledgements)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
 - [Usage](#usage)
-- [Changing Worlds](#changing-gazebo-worlds)
-- [People behind the project](#people)
-
-
----
-
-## **Overview**  
-
-This project focuses on creating a versatile UAV platform for mapping and localization in GPS-denied environments, particularly forests. The drone is designed to:  
-
-- Map simulated forest environments in **Gazebo**.  
-- Perform **LiDAR-Inertial odometry** for precise localization.  
+- [Changing Gazebo Worlds](#changing-gazebo-worlds)
+- [People](#people)
 
 ---
 
-## **Features**  
+## 🧭 Overview
 
-- **Simulation:** Full integration with **Gazebo Classic 11** for realistic forest environments.  
-- **Visualization:** 3D mapping and localization visualization using **RVIZ2**.  
-- **Teleoperation:** ROS2 nodes for teleoperated flight, mapping, and localization.  
-- **Scalable Architecture:** Modular design for adding new sensors, controllers, or behaviors.  
+**AURORA** addresses the core challenges of forest SAR operations:
 
----
+- 🚫 GPS-denied conditions  
+- 🌲 Occlusion from canopy and dense vegetation  
+- ⚠️ Visual aliasing and unreliable communication
 
-## **Key Packages**  
+Our system leverages **LiDAR, IMU, and thermal cameras** mounted on UAVs to enable:
 
-1. **SJTU Drone:** Contains UAV controller, simulation models, and forest world files.  
-2. **LI-SLAM:** Implements LiDAR-Inertial odometry and mapping with a pose-graph backend.  
-3. **FASTLIO2:** High-speed, real-time LiDAR-Inertial odometry for efficient localization and mapping.  
-
----
-
-## **Acknowledgements**  
-
-We would like to acknowledge the following for their contributions:  
-
-1. **Shanghai Jiao Tong University** for the **SJTU Drone** model, based on the Parrot AR2 drone: [Repository](https://github.com/NovoG93/sjtu_drone)  
-2. **Ryuhei Sasaki** for the **LI-SLAM** package: [Repository](https://github.com/rsasaki0109/li_slam_ros2)  
-3. **HKU-MARS** for the **FASTLIO2** package: [Repository](https://github.com/hku-mars/FAST_LIO/tree/ROS2)  
+- Real-time **Simultaneous Localization and Mapping (SLAM)**  
+- **Thermal-aware exploration** and victim detection  
+- Multi-agent **autonomous navigation** and **teleoperation** support
 
 ---
 
-## **Getting Started**  
+## 🚀 Key Contributions
 
-### **Prerequisites**  
-
-- [ROS2 Humble](https://docs.ros.org/en/humble/index.html)  
-- [Gazebo Classic 11](http://gazebosim.org/)  
-- Python 3.8 or later  
-- C++ (for performance-critical nodes)  
-- [Gazebo Model Files](https://drive.google.com/drive/folders/1m94-q4EyJTxHPq3p_1vGZ0i0HHRN0Vhf?usp=sharing)  
+- ✅ First complete benchmarked SAR pipeline for forest environments  
+- 🔁 Evaluation of **LI-SLAM** vs. **FASTLIO2** under identical testbeds  
+- 🔥 Integration of thermal human detection using YOLOv8  
+- 📡 Autonomous and operator-assisted mission architecture  
+- 📊 Field-oriented performance benchmarking (exploration speed, SLAM RMSE, detection accuracy)
 
 ---
 
-### **Cloning the Repository**  
+## ⚙️ System Features
 
-```bash  
-# Clone the repository  
-git clone https://github.com/ShameerMasroor/LI-SLAM-and-FASTLIO2-for-Teleoperated-UAVs.git  
-```  
+- 🛰️ Multi-UAV, ROS2-based architecture  
+- 🗺️ Real-time mapping using LiDAR-Inertial odometry  
+- 🔍 Frontier and probability-map exploration algorithms  
+- 🔥 YOLOv8-based thermal human detection  
+- 🧭 Path planning with RRT/bi-RRT + APF for collision-free travel  
+- 📍 Victim localization with ≤5m accuracy
+
+---
+
+## 🧱 Architecture Overview
+
+**Base Station:**
+- Mission planning
+- Operator interface (RViz2)
+- Real-time visualization
+
+**UAV Stack:**
+- SLAM: LI-SLAM / FASTLIO2
+- Exploration logic
+- Target detection module (YOLO + Thermal)
+- 3D Path Planner
+- Return-to-base behavior
 
 ---
 
-## **Installation**  
+## 📦 Key Packages
 
-### **1. Install Dependencies**  
-
-Use `rosdep` to install dependencies:  
-
-```bash  
-# Install ROS2 dependencies  
-rosdep install --from-paths src --ignore-src -r -y  
-```  
-
-### **2. Download Gazebo Models**  
-
-1. Visit [this Google Drive link](https://drive.google.com/drive/folders/1m94-q4EyJTxHPq3p_1vGZ0i0HHRN0Vhf?usp=sharing).  
-2. Download the model files and place them in the following Gazebo directories:  
-
-   ```bash  
-   /usr/share/gazebo-11/models  
-   /usr/share/gazebo-11/materials  
-   ```  
-
-> **Warning:** The Gazebo simulation will fail to load if the models are not placed correctly!  
-
-### **3. Build the Workspace**  
-
-```bash  
-# Source ROS2 setup  
-source /opt/ros/humble/setup.bash  
-
-# Build the workspace  
-colcon build  
-```  
-
-If errors occur during the build, you can build individual packages manually:  
-
-```bash  
-# Build specific packages
-cd lidarslam_ros2-develop
-colcon build --packages-select lidarslam_msgs  
-colcon build --packages-select graph_based_slam  
-colcon build --packages-select scanmatcher  
-
-# Build SJTU Drone package  
-cd sjtu_drone  
-colcon build  
-```  
-> **Note:** We found that for machines having 8GB of RAM or below may freeze or become unresponsive during the building step. Build packages individually in that case. 
----
-
-## **Usage**  
-
-### **1. Launch the Simulation**  
-
-```bash  
-# Navigate to the SJTU Drone package  
-cd sjtu_drone-ros2  
-
-# Source the workspace  
-source install/setup.bash  
-
-# Launch the Gazebo simulation  
-ros2 launch sjtu_drone_bringup sjtu_drone_bringup.launch.py  
-```  
-
-### **2. Launch LI-SLAM**  
-
-```bash  
-# Navigate to the LI-SLAM package  
-cd lidarslam_ros2-develop  
-
-# Source the workspace  
-source install/setup.bash  
-
-# Launch LI-SLAM  
-ros2 launch lidarslam lidarslam.launch.py  
-```  
-
-### **3. Launch FASTLIO2**  
-
-```bash  
-# Navigate to the FASTLIO2 package  
-cd FASTLIOROS2  
-
-# Launch FASTLIO2  
-ros2 launch fast_lio mapping.launch.py  
-```
-> **Note:** It is recommended to run only one of the SLAM packages at a time.
-### **4. Teleoperate the Drone**  
-
-You can control the drone using either **xterm** or a **Gamepad**. Xterm is enabled by default, but you can switch to use a gamepad by commenting out the code for xterm in the ```sjtu_drone_bringup.launch.py ``` file.  
-
-#### Install xterm  
-
-```bash  
-sudo apt update  
-sudo apt install xterm  
-```  
-
-#### Install RVIZ IMU Plugin  
-
-```bash  
-sudo apt install ros-humble-rviz-imu-plugin  
-```  
-
-### Changing Gazebo Worlds
-
-A number of test worlds are provided in the sjtu_drone_description directory. You can set which world to use by changing worlds in the sjtu_drone_gazebo.launch.py file.
+1. **SJTU Drone** – UAV model, control interfaces, and world setup  
+2. **LI-SLAM** – Pose-graph based SLAM for dense environments  
+3. **FASTLIO2** – Real-time, tightly coupled LiDAR-Inertial odometry  
+4. **Exploration Module** – Frontier, thermal, and probability-based logic  
+5. **Human Detection** – YOLOv8, trained on thermal forest imagery
 
 ---
-## **People**
-This project was lovingly made by Zaryan, Maleeha, and Shameer, all three of which go under the name of Zarmasha.
 
+## 🙏 Acknowledgements
+
+- [SJTU Drone (Parrot AR2)](https://github.com/NovoG93/sjtu_drone) – by Shanghai Jiao Tong University  
+- [LI-SLAM ROS2](https://github.com/rsasaki0109/li_slam_ros2) – by Ryuhei Sasaki  
+- [FASTLIO2 ROS2](https://github.com/hku-mars/FAST_LIO/tree/ROS2) – by HKU-MARS Lab  
+- Advised by **Dr. Abdul Basit Memon**, Habib University
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- ROS2 Humble
+- Gazebo Classic 11
+- Python 3.8+
+- C++ compiler (for ROS nodes)
+- [Gazebo Models Download (Google Drive)](https://drive.google.com/drive/folders/1m94-q4EyJTxHPq3p_1vGZ0i0HHRN0Vhf)
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/ShameerMasroor/LI-SLAM-and-FASTLIO2-for-Teleoperated-UAVs.git
