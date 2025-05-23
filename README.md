@@ -25,7 +25,6 @@ See AURORA in action – live mapping, autonomous flight, and human detection in
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Changing Gazebo Worlds](#changing-gazebo-worlds)
 - [People](#people)
 
 ---
@@ -87,11 +86,11 @@ Our system leverages **LiDAR, IMU, and thermal cameras** mounted on UAVs to enab
 
 1. **SJTU Drone** – UAV model, control interfaces, and world setup  
 2. **LI-SLAM** – Pose-graph based SLAM for dense environments  
-3. **FASTLIO2** – Real-time, tightly coupled LiDAR-Inertial odometry
-4. **Octomap** - Popular volumetric representation of obstacles and free-space
-5. **Open-Motion-Path-Planning Library** – For 3D path planning
-6. **Human Detection** – YOLOv8, trained on thermal forest imagery
-7. **Local APF-based reactive planner** - For avoiding obstacles partially mapped by the LiDAR
+3. **FASTLIO2** – Real-time, tightly coupled LiDAR-Inertial odometry  
+4. **Octomap** – Popular volumetric representation of obstacles and free-space  
+5. **Open-Motion-Path-Planning Library** – For 3D path planning  
+6. **Human Detection** – YOLOv8, trained on thermal forest imagery  
+7. **Local APF-based reactive planner** – For avoiding obstacles partially mapped by the LiDAR
 
 ---
 
@@ -108,22 +107,53 @@ Our system leverages **LiDAR, IMU, and thermal cameras** mounted on UAVs to enab
 
 ### Prerequisites
 
-- ROS2 Humble
-- Gazebo Classic 11
-- Python 3.8+
-- C++ compiler (for ROS nodes)
+- ROS2 Humble  
+- Gazebo Classic 11  
+- Python 3.8+  
+- C++ compiler (for ROS nodes)  
 - [Gazebo Models Download (Google Drive)](https://drive.google.com/drive/folders/1m94-q4EyJTxHPq3p_1vGZ0i0HHRN0Vhf)
+
+> **IMPORTANT**  
+> Please place the downloaded Gazebo Models in `/usr/share/gazebo-11`.  
+> If you fail to do this step, the simulation environment will load without tree models.
+
+---
 
 ### Clone the Repository
 
 ```bash
 git clone https://github.com/ShameerMasroor/Aurora-Multi-UAV-System-for-Forest-Search-and-Rescue.git
 
-```
 
 ---
 
-## 🛠️ Installation
+## Docker Image Usage
+
+```bash
+docker pull shameermasroor/aurora_v2
+
+```
+## Docker Container Launch Script
+```bash
+
+xhost +local:docker
+
+docker run -it \
+  --name aurora_v2_container \
+  --env="DISPLAY=${DISPLAY}" \
+  --env="QT_X11_NO_MITSHM=1" \
+  --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
+  --volume="$HOME/.Xauthority:/root/.Xauthority:rw" \
+  --volume="/usr/share/gazebo-11:/usr/share/gazebo-11:ro" \
+  --net=host \
+  --privileged \
+  shameermasroor/aurora_v2 \
+  bash
+
+
+```
+
+## 🛠️ Native Installation
 
 - Assuming that you have ROS2 Humble and Gazebo Classic 11 installed, install the following libraries
   
@@ -214,3 +244,6 @@ The bash file can be launched using ./system_launch.sh
 
 ## Data logging
 Mission data is stored in the sjtu_drone package directory under the folder 'Drone Metrics' and 'human_detection'.
+
+## People
+This project was lovingly made by Zaryan, Maleeha, and Shameer, who collectively go by the name Zarmasha.
