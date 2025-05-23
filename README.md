@@ -178,3 +178,39 @@ sudo make install
 
 
 ```
+
+- Building the project packages
+
+```bash
+cd Multi-UAV-System-for-Forest-SAR/sjtu_drone_ros2
+colcon build
+```
+- Building FASTLIO2
+  
+```bash
+cd Multi-UAV-System-for-Forest-SAR/FASTLIO2
+colcon build
+```
+
+- Building Octomap
+  
+```bash
+cd Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2
+colcon build
+```
+
+- Building OMPL
+  
+```bash
+cd Multi-UAV-System-for-Forest-SAR/ompl_example_2d_latest_6
+colcon build
+```
+
+## Running the packages
+
+Place the provided system_launch.sh bash script in an easy to access directory, such as home. 
+Please modify the path to the packages in the bash script and make it executable. 
+The bash file can be launched using ./system_launch.sh
+
+## Data logging
+Mission data is stored in the sjtu_drone package directory under the folder 'Drone Metrics' and 'human_detection'.
