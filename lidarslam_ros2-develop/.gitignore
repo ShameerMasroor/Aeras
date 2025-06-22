@@ -2,3 +2,4 @@
 lidarslam/launch/test.launch.py
 lidarslam/param/test.yaml
 lidarslam/rviz/test.rviz
+*.pcd
