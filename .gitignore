@@ -1,0 +1,12 @@
+build/*
+log/*
+install/*
+apf_local/build/*
+apf_local/log/*
+apf_local/install/*
+sjtu_drone_ros2/build/*
+sjtu_drone_ros2/log/*
+sjtu_drone_ros2/install/*
+lidarslam_ros2-develop/build/*
+lidarslam_ros2-develop/log/*
+lidarslam_ros2-develop/install/*

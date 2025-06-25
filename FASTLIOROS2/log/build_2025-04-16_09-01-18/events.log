@@ -1,0 +1,788 @@
+[0.000000] (-) TimerEvent: {}
+[0.000406] (fast_lio) JobQueued: {'identifier': 'fast_lio', 'dependencies': OrderedDict()}
+[0.000476] (fast_lio) JobStarted: {'identifier': 'fast_lio'}
+[0.005766] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'cmake'}
+[0.006046] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2', '-DCMAKE_INSTALL_PREFIX=/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio'], 'cwd': '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/build/fast_lio', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root1'), ('LC_TIME', 'ur_PK'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/root1/ompl/build/src/ompl:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/root1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ur_PK'), ('MANAGERPID', '2101'), ('SYSTEMD_EXEC_PID', '2633933'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2634714'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/root1/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root1'), ('JOURNAL_STREAM', '8:10990794'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'root1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/root1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/root1-OptiPlex-5000:@/tmp/.ICE-unix/2633904,unix/root1-OptiPlex-5000:/tmp/.ICE-unix/2633904'), ('INVOCATION_ID', '22398699dc9b470bac3fb9b56d311cd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ur_PK'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ur_PK'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q42V42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ur_PK'), ('TERMINATOR_UUID', 'urn:uuid:4e3fa326-99b8-4b24-b693-61763cf7c60d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ur_PK'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ur_PK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/build/fast_lio'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/root1/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ur_PK'), ('LC_PAPER', 'ur_PK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/usr/local:/usr/local:/opt/ros/humble')]), 'shell': False}
+[0.047355] (fast_lio) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.084816] (fast_lio) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.089216] (fast_lio) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099755] (-) TimerEvent: {}
+[0.135495] (fast_lio) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.139740] (fast_lio) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.139840] (fast_lio) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.139989] (fast_lio) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.141801] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.194835] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.199685] (fast_lio) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.199850] (-) TimerEvent: {}
+[0.200016] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.200095] (fast_lio) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.200516] (fast_lio) StderrLine: {'line': b'\x1b[0mCurrent CPU archtecture: x86_64\x1b[0m\n'}
+[0.204415] (fast_lio) StderrLine: {'line': b'\x1b[0mProcesser number:  20\x1b[0m\n'}
+[0.204505] (fast_lio) StderrLine: {'line': b'\x1b[0mcore for MP: 3\x1b[0m\n'}
+[0.299949] (-) TimerEvent: {}
+[0.400229] (-) TimerEvent: {}
+[0.435859] (fast_lio) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") \n'}
+[0.436979] (fast_lio) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500347] (-) TimerEvent: {}
+[0.527001] (fast_lio) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.583318] (fast_lio) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600458] (-) TimerEvent: {}
+[0.602942] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.605563] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.610208] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.616895] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.625543] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.651410] (fast_lio) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.652928] (fast_lio) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.665047] (fast_lio) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.669209] (fast_lio) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.700579] (-) TimerEvent: {}
+[0.719309] (fast_lio) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.719479] (fast_lio) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.770221] (fast_lio) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.771282] (fast_lio) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.800660] (-) TimerEvent: {}
+[0.803225] (fast_lio) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.819085] (fast_lio) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.826242] (fast_lio) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.835812] (fast_lio) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.846320] (fast_lio) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.858146] (fast_lio) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.877737] (fast_lio) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[0.900816] (-) TimerEvent: {}
+[0.909681] (fast_lio) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.918232] (fast_lio) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.939676] (fast_lio) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.939876] (fast_lio) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.961181] (fast_lio) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.970244] (fast_lio) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.998271] (fast_lio) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.998334] (fast_lio) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.000905] (-) TimerEvent: {}
+[1.101128] (-) TimerEvent: {}
+[1.201497] (-) TimerEvent: {}
+[1.301790] (-) TimerEvent: {}
+[1.402045] (-) TimerEvent: {}
+[1.502325] (-) TimerEvent: {}
+[1.602640] (-) TimerEvent: {}
+[1.662392] (fast_lio) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.672569] (fast_lio) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.697179] (fast_lio) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.697947] (fast_lio) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.702741] (-) TimerEvent: {}
+[1.735922] (fast_lio) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.802857] (-) TimerEvent: {}
+[1.830688] (fast_lio) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.836332] (fast_lio) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.841006] (fast_lio) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.902953] (-) TimerEvent: {}
+[1.929140] (fast_lio) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.003043] (-) TimerEvent: {}
+[2.022778] (fast_lio) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.103149] (-) TimerEvent: {}
+[2.112822] (fast_lio) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.113183] (fast_lio) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.113706] (fast_lio) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.114188] (fast_lio) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.114683] (fast_lio) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.115151] (fast_lio) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.115345] (fast_lio) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.115573] (fast_lio) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.116120] (fast_lio) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.116697] (fast_lio) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.117247] (fast_lio) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.117658] (fast_lio) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.118323] (fast_lio) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.118836] (fast_lio) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.119325] (fast_lio) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.119811] (fast_lio) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.120381] (fast_lio) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.120910] (fast_lio) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.121505] (fast_lio) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.121990] (fast_lio) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.122538] (fast_lio) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.122691] (fast_lio) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.124701] (fast_lio) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.125227] (fast_lio) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.125750] (fast_lio) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.140091] (fast_lio) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.140850] (fast_lio) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.140899] (fast_lio) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.180529] (fast_lio) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.194365] (fast_lio) StdoutLine: {'line': b'-- PCL: /usr/include/pcl-1.12\n'}
+[2.194495] (fast_lio) StderrLine: {'line': b'\x1b[0mEigen:/usr/include/eigen3\x1b[0m\n'}
+[2.203317] (-) TimerEvent: {}
+[2.303546] (-) TimerEvent: {}
+[2.364255] (fast_lio) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.403705] (-) TimerEvent: {}
+[2.503997] (-) TimerEvent: {}
+[2.560575] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.604181] (-) TimerEvent: {}
+[2.638609] (fast_lio) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.656066] (fast_lio) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.657453] (fast_lio) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.672972] (fast_lio) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.673032] (fast_lio) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.673058] (fast_lio) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.673082] (fast_lio) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.688369] (fast_lio) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.704295] (-) TimerEvent: {}
+[2.720453] (fast_lio) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.775519] (fast_lio) StdoutLine: {'line': b'-- Generating done\n'}
+[2.786848] (fast_lio) StdoutLine: {'line': b'-- Build files have been written to: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/build/fast_lio\n'}
+[2.800435] (fast_lio) CommandEnded: {'returncode': 0}
+[2.801480] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'build'}
+[2.801499] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/build/fast_lio', '--', '-j20', '-l20'], 'cwd': '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/build/fast_lio', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root1'), ('LC_TIME', 'ur_PK'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/root1/ompl/build/src/ompl:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/root1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ur_PK'), ('MANAGERPID', '2101'), ('SYSTEMD_EXEC_PID', '2633933'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2634714'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/root1/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root1'), ('JOURNAL_STREAM', '8:10990794'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'root1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/root1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/root1-OptiPlex-5000:@/tmp/.ICE-unix/2633904,unix/root1-OptiPlex-5000:/tmp/.ICE-unix/2633904'), ('INVOCATION_ID', '22398699dc9b470bac3fb9b56d311cd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ur_PK'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ur_PK'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q42V42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ur_PK'), ('TERMINATOR_UUID', 'urn:uuid:4e3fa326-99b8-4b24-b693-61763cf7c60d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ur_PK'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ur_PK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/build/fast_lio'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/root1/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ur_PK'), ('LC_PAPER', 'ur_PK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/usr/local:/usr/local:/opt/ros/humble')]), 'shell': False}
+[2.804377] (-) TimerEvent: {}
+[2.834992] (fast_lio) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.841318] (fast_lio) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.845486] (fast_lio) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_fast_lio\n'}
+[2.904497] (-) TimerEvent: {}
+[2.978793] (fast_lio) StdoutLine: {'line': b'running egg_info\n'}
+[2.979072] (fast_lio) StdoutLine: {'line': b'creating fast_lio.egg-info\n'}
+[2.979221] (fast_lio) StdoutLine: {'line': b'writing fast_lio.egg-info/PKG-INFO\n'}
+[2.979297] (fast_lio) StdoutLine: {'line': b'writing dependency_links to fast_lio.egg-info/dependency_links.txt\n'}
+[2.979373] (fast_lio) StdoutLine: {'line': b'writing top-level names to fast_lio.egg-info/top_level.txt\n'}
+[2.979448] (fast_lio) StdoutLine: {'line': b"writing manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[2.980569] (fast_lio) StdoutLine: {'line': b"reading manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[2.980851] (fast_lio) StdoutLine: {'line': b"writing manifest file 'fast_lio.egg-info/SOURCES.txt'\n"}
+[3.000439] (fast_lio) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_fast_lio_egg\n'}
+[3.004586] (-) TimerEvent: {}
+[3.025564] (fast_lio) StdoutLine: {'line': b'[  5%] Built target fast_lio__cpp\n'}
+[3.032632] (fast_lio) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.033129] (fast_lio) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.033274] (fast_lio) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.033378] (fast_lio) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o\x1b[0m\n'}
+[3.104819] (-) TimerEvent: {}
+[3.115426] (fast_lio) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libfast_lio__rosidl_generator_c.so\x1b[0m\n'}
+[3.141303] (fast_lio) StdoutLine: {'line': b'[ 20%] Built target fast_lio__rosidl_generator_c\n'}
+[3.148120] (fast_lio) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.148390] (fast_lio) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.149889] (fast_lio) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.204955] (-) TimerEvent: {}
+[3.210310] (fast_lio) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o\x1b[0m\n'}
+[3.220652] (fast_lio) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o\x1b[0m\n'}
+[3.221105] (fast_lio) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o\x1b[0m\n'}
+[3.305134] (-) TimerEvent: {}
+[3.329760] (fast_lio) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o\x1b[0m\n'}
+[3.342922] (fast_lio) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o\x1b[0m\n'}
+[3.350429] (fast_lio) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o\x1b[0m\n'}
+[3.354719] (fast_lio) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.385117] (fast_lio) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.385950] (fast_lio) StdoutLine: {'line': b'[ 51%] Built target fast_lio__rosidl_typesupport_c\n'}
+[3.391051] (fast_lio) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.405248] (-) TimerEvent: {}
+[3.411994] (fast_lio) StdoutLine: {'line': b'[ 54%] Built target fast_lio__rosidl_typesupport_introspection_c\n'}
+[3.422992] (fast_lio) StdoutLine: {'line': b'[ 54%] Built target fast_lio__rosidl_typesupport_cpp\n'}
+[3.440245] (fast_lio) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o\x1b[0m\n'}
+[3.440650] (fast_lio) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o\x1b[0m\n'}
+[3.440793] (fast_lio) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o\x1b[0m\n'}
+[3.481261] (fast_lio) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.482792] (fast_lio) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.505387] (-) TimerEvent: {}
+[3.516136] (fast_lio) StdoutLine: {'line': b'[ 68%] Built target fast_lio__rosidl_typesupport_introspection_cpp\n'}
+[3.535830] (fast_lio) StdoutLine: {'line': b'[ 68%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp\n'}
+[3.562731] (fast_lio) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.605510] (-) TimerEvent: {}
+[3.613390] (fast_lio) StdoutLine: {'line': b'[ 71%] Built target fast_lio__rosidl_typesupport_fastrtps_c\n'}
+[3.629468] (fast_lio) StdoutLine: {'line': b'[ 71%] Built target fast_lio\n'}
+[3.646217] (fast_lio) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.705640] (-) TimerEvent: {}
+[3.806088] (-) TimerEvent: {}
+[3.892135] (fast_lio) StdoutLine: {'line': b'[ 74%] Built target fast_lio__py\n'}
+[3.906260] (-) TimerEvent: {}
+[3.907390] (fast_lio) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o\x1b[0m\n'}
+[3.997502] (fast_lio) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so\x1b[0m\n'}
+[4.006388] (-) TimerEvent: {}
+[4.029666] (fast_lio) StdoutLine: {'line': b'[ 80%] Built target fast_lio__rosidl_generator_py\n'}
+[4.044921] (fast_lio) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.045865] (fast_lio) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.046344] (fast_lio) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.106502] (-) TimerEvent: {}
+[4.111486] (fast_lio) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.111772] (fast_lio) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.113006] (fast_lio) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.136469] (fast_lio) StdoutLine: {'line': b'[ 97%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext\n'}
+[4.136778] (fast_lio) StdoutLine: {'line': b'[ 97%] Built target fast_lio__rosidl_typesupport_c__pyext\n'}
+[4.142610] (fast_lio) StdoutLine: {'line': b'[ 97%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.206630] (-) TimerEvent: {}
+[4.307146] (-) TimerEvent: {}
+[4.407426] (-) TimerEvent: {}
+[4.507738] (-) TimerEvent: {}
+[4.608024] (-) TimerEvent: {}
+[4.708381] (-) TimerEvent: {}
+[4.808768] (-) TimerEvent: {}
+[4.909117] (-) TimerEvent: {}
+[5.009425] (-) TimerEvent: {}
+[5.109752] (-) TimerEvent: {}
+[5.210170] (-) TimerEvent: {}
+[5.310572] (-) TimerEvent: {}
+[5.410981] (-) TimerEvent: {}
+[5.511321] (-) TimerEvent: {}
+[5.611770] (-) TimerEvent: {}
+[5.712214] (-) TimerEvent: {}
+[5.812582] (-) TimerEvent: {}
+[5.912952] (-) TimerEvent: {}
+[6.013337] (-) TimerEvent: {}
+[6.113720] (-) TimerEvent: {}
+[6.214188] (-) TimerEvent: {}
+[6.314586] (-) TimerEvent: {}
+[6.415010] (-) TimerEvent: {}
+[6.515432] (-) TimerEvent: {}
+[6.615867] (-) TimerEvent: {}
+[6.716342] (-) TimerEvent: {}
+[6.816746] (-) TimerEvent: {}
+[6.917095] (-) TimerEvent: {}
+[7.017414] (-) TimerEvent: {}
+[7.117808] (-) TimerEvent: {}
+[7.218217] (-) TimerEvent: {}
+[7.284166] (fast_lio) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22\x1b[m\x1b[K,\n'}
+[7.284342] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23\x1b[m\x1b[K,\n'}
+[7.284378] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14\x1b[m\x1b[K,\n'}
+[7.284440] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42\x1b[m\x1b[K,\n'}
+[7.284464] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25\x1b[m\x1b[K,\n'}
+[7.284488] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29\x1b[m\x1b[K,\n'}
+[7.284513] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/shared_ptr.hpp:17\x1b[m\x1b[K,\n'}
+[7.284537] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/date_time/microsec_time_clock.hpp:18\x1b[m\x1b[K,\n'}
+[7.284564] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31\x1b[m\x1b[K,\n'}
+[7.284586] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36\x1b[m\x1b[K,\n'}
+[7.284609] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/interprocess/sync/file_lock.hpp:26\x1b[m\x1b[K,\n'}
+[7.284631] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46\x1b[m\x1b[K,\n'}
+[7.284653] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73\x1b[m\x1b[K,\n'}
+[7.284676] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/src/IMU_Processing.hpp:18\x1b[m\x1b[K,\n'}
+[7.284699] (fast_lio) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/src/laserMapping.cpp:47\x1b[m\x1b[K:\n'}
+[7.284734] (fast_lio) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.284762] (fast_lio) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[7.284786] (fast_lio) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.318344] (-) TimerEvent: {}
+[7.418676] (-) TimerEvent: {}
+[7.518977] (-) TimerEvent: {}
+[7.619322] (-) TimerEvent: {}
+[7.719778] (-) TimerEvent: {}
+[7.820108] (-) TimerEvent: {}
+[7.920413] (-) TimerEvent: {}
+[8.020789] (-) TimerEvent: {}
+[8.121333] (-) TimerEvent: {}
+[8.221605] (-) TimerEvent: {}
+[8.321957] (-) TimerEvent: {}
+[8.422318] (-) TimerEvent: {}
+[8.522682] (-) TimerEvent: {}
+[8.623053] (-) TimerEvent: {}
+[8.723335] (-) TimerEvent: {}
+[8.823725] (-) TimerEvent: {}
+[8.924021] (-) TimerEvent: {}
+[9.024305] (-) TimerEvent: {}
+[9.124633] (-) TimerEvent: {}
+[9.224922] (-) TimerEvent: {}
+[9.325254] (-) TimerEvent: {}
+[9.425571] (-) TimerEvent: {}
+[9.525852] (-) TimerEvent: {}
+[9.626200] (-) TimerEvent: {}
+[9.726528] (-) TimerEvent: {}
+[9.826817] (-) TimerEvent: {}
+[9.927204] (-) TimerEvent: {}
+[10.027529] (-) TimerEvent: {}
+[10.127847] (-) TimerEvent: {}
+[10.228108] (-) TimerEvent: {}
+[10.328422] (-) TimerEvent: {}
+[10.428822] (-) TimerEvent: {}
+[10.529115] (-) TimerEvent: {}
+[10.629368] (-) TimerEvent: {}
+[10.729677] (-) TimerEvent: {}
+[10.829898] (-) TimerEvent: {}
+[10.930204] (-) TimerEvent: {}
+[11.030466] (-) TimerEvent: {}
+[11.130952] (-) TimerEvent: {}
+[11.231482] (-) TimerEvent: {}
+[11.331780] (-) TimerEvent: {}
+[11.432155] (-) TimerEvent: {}
+[11.532447] (-) TimerEvent: {}
+[11.632841] (-) TimerEvent: {}
+[11.733165] (-) TimerEvent: {}
+[11.833502] (-) TimerEvent: {}
+[11.933807] (-) TimerEvent: {}
+[12.034061] (-) TimerEvent: {}
+[12.134411] (-) TimerEvent: {}
+[12.234718] (-) TimerEvent: {}
+[12.335002] (-) TimerEvent: {}
+[12.435235] (-) TimerEvent: {}
+[12.535559] (-) TimerEvent: {}
+[12.635882] (-) TimerEvent: {}
+[12.736206] (-) TimerEvent: {}
+[12.836503] (-) TimerEvent: {}
+[12.936899] (-) TimerEvent: {}
+[13.037273] (-) TimerEvent: {}
+[13.137643] (-) TimerEvent: {}
+[13.237961] (-) TimerEvent: {}
+[13.338239] (-) TimerEvent: {}
+[13.438574] (-) TimerEvent: {}
+[13.538857] (-) TimerEvent: {}
+[13.639157] (-) TimerEvent: {}
+[13.739479] (-) TimerEvent: {}
+[13.839790] (-) TimerEvent: {}
+[13.940110] (-) TimerEvent: {}
+[14.040445] (-) TimerEvent: {}
+[14.140744] (-) TimerEvent: {}
+[14.241068] (-) TimerEvent: {}
+[14.341352] (-) TimerEvent: {}
+[14.441694] (-) TimerEvent: {}
+[14.541995] (-) TimerEvent: {}
+[14.642263] (-) TimerEvent: {}
+[14.742629] (-) TimerEvent: {}
+[14.843093] (-) TimerEvent: {}
+[14.943471] (-) TimerEvent: {}
+[15.043892] (-) TimerEvent: {}
+[15.144225] (-) TimerEvent: {}
+[15.244546] (-) TimerEvent: {}
+[15.344868] (-) TimerEvent: {}
+[15.445230] (-) TimerEvent: {}
+[15.545529] (-) TimerEvent: {}
+[15.645821] (-) TimerEvent: {}
+[15.746199] (-) TimerEvent: {}
+[15.846584] (-) TimerEvent: {}
+[15.946897] (-) TimerEvent: {}
+[16.047230] (-) TimerEvent: {}
+[16.147524] (-) TimerEvent: {}
+[16.247865] (-) TimerEvent: {}
+[16.348162] (-) TimerEvent: {}
+[16.448498] (-) TimerEvent: {}
+[16.548776] (-) TimerEvent: {}
+[16.649100] (-) TimerEvent: {}
+[16.749463] (-) TimerEvent: {}
+[16.849818] (-) TimerEvent: {}
+[16.950185] (-) TimerEvent: {}
+[17.050447] (-) TimerEvent: {}
+[17.150783] (-) TimerEvent: {}
+[17.251154] (-) TimerEvent: {}
+[17.351490] (-) TimerEvent: {}
+[17.451789] (-) TimerEvent: {}
+[17.552205] (-) TimerEvent: {}
+[17.652604] (-) TimerEvent: {}
+[17.752893] (-) TimerEvent: {}
+[17.853221] (-) TimerEvent: {}
+[17.953629] (-) TimerEvent: {}
+[18.054031] (-) TimerEvent: {}
+[18.154343] (-) TimerEvent: {}
+[18.254763] (-) TimerEvent: {}
+[18.355078] (-) TimerEvent: {}
+[18.455445] (-) TimerEvent: {}
+[18.555809] (-) TimerEvent: {}
+[18.656160] (-) TimerEvent: {}
+[18.756554] (-) TimerEvent: {}
+[18.856867] (-) TimerEvent: {}
+[18.957163] (-) TimerEvent: {}
+[19.057646] (-) TimerEvent: {}
+[19.158006] (-) TimerEvent: {}
+[19.258289] (-) TimerEvent: {}
+[19.358647] (-) TimerEvent: {}
+[19.458914] (-) TimerEvent: {}
+[19.559255] (-) TimerEvent: {}
+[19.659621] (-) TimerEvent: {}
+[19.759907] (-) TimerEvent: {}
+[19.860199] (-) TimerEvent: {}
+[19.960543] (-) TimerEvent: {}
+[20.060962] (-) TimerEvent: {}
+[20.161333] (-) TimerEvent: {}
+[20.261658] (-) TimerEvent: {}
+[20.362039] (-) TimerEvent: {}
+[20.462418] (-) TimerEvent: {}
+[20.562771] (-) TimerEvent: {}
+[20.663102] (-) TimerEvent: {}
+[20.763500] (-) TimerEvent: {}
+[20.863769] (-) TimerEvent: {}
+[20.964054] (-) TimerEvent: {}
+[21.064405] (-) TimerEvent: {}
+[21.164758] (-) TimerEvent: {}
+[21.265058] (-) TimerEvent: {}
+[21.365328] (-) TimerEvent: {}
+[21.465681] (-) TimerEvent: {}
+[21.566006] (-) TimerEvent: {}
+[21.666349] (-) TimerEvent: {}
+[21.766684] (-) TimerEvent: {}
+[21.866953] (-) TimerEvent: {}
+[21.967234] (-) TimerEvent: {}
+[22.067537] (-) TimerEvent: {}
+[22.167966] (-) TimerEvent: {}
+[22.268297] (-) TimerEvent: {}
+[22.368611] (-) TimerEvent: {}
+[22.468911] (-) TimerEvent: {}
+[22.569223] (-) TimerEvent: {}
+[22.669484] (-) TimerEvent: {}
+[22.769834] (-) TimerEvent: {}
+[22.870172] (-) TimerEvent: {}
+[22.970545] (-) TimerEvent: {}
+[23.070890] (-) TimerEvent: {}
+[23.171186] (-) TimerEvent: {}
+[23.271560] (-) TimerEvent: {}
+[23.371823] (-) TimerEvent: {}
+[23.472129] (-) TimerEvent: {}
+[23.572476] (-) TimerEvent: {}
+[23.672835] (-) TimerEvent: {}
+[23.773150] (-) TimerEvent: {}
+[23.873465] (-) TimerEvent: {}
+[23.973834] (-) TimerEvent: {}
+[24.074149] (-) TimerEvent: {}
+[24.174563] (-) TimerEvent: {}
+[24.274862] (-) TimerEvent: {}
+[24.375152] (-) TimerEvent: {}
+[24.475439] (-) TimerEvent: {}
+[24.575773] (-) TimerEvent: {}
+[24.676061] (-) TimerEvent: {}
+[24.776398] (-) TimerEvent: {}
+[24.876755] (-) TimerEvent: {}
+[24.977029] (-) TimerEvent: {}
+[25.077547] (-) TimerEvent: {}
+[25.177789] (-) TimerEvent: {}
+[25.278089] (-) TimerEvent: {}
+[25.378393] (-) TimerEvent: {}
+[25.478756] (-) TimerEvent: {}
+[25.579026] (-) TimerEvent: {}
+[25.679345] (-) TimerEvent: {}
+[25.779615] (-) TimerEvent: {}
+[25.879950] (-) TimerEvent: {}
+[25.980326] (-) TimerEvent: {}
+[26.080574] (-) TimerEvent: {}
+[26.180849] (-) TimerEvent: {}
+[26.281175] (-) TimerEvent: {}
+[26.381479] (-) TimerEvent: {}
+[26.481820] (-) TimerEvent: {}
+[26.582107] (-) TimerEvent: {}
+[26.682455] (-) TimerEvent: {}
+[26.782808] (-) TimerEvent: {}
+[26.883168] (-) TimerEvent: {}
+[26.983524] (-) TimerEvent: {}
+[27.083764] (-) TimerEvent: {}
+[27.184071] (-) TimerEvent: {}
+[27.284510] (-) TimerEvent: {}
+[27.384776] (-) TimerEvent: {}
+[27.485077] (-) TimerEvent: {}
+[27.585363] (-) TimerEvent: {}
+[27.685672] (-) TimerEvent: {}
+[27.786110] (-) TimerEvent: {}
+[27.886385] (-) TimerEvent: {}
+[27.986692] (-) TimerEvent: {}
+[28.086959] (-) TimerEvent: {}
+[28.187278] (-) TimerEvent: {}
+[28.287635] (-) TimerEvent: {}
+[28.388024] (-) TimerEvent: {}
+[28.488368] (-) TimerEvent: {}
+[28.588680] (-) TimerEvent: {}
+[28.689032] (-) TimerEvent: {}
+[28.789357] (-) TimerEvent: {}
+[28.889735] (-) TimerEvent: {}
+[28.990076] (-) TimerEvent: {}
+[29.090369] (-) TimerEvent: {}
+[29.190627] (-) TimerEvent: {}
+[29.290882] (-) TimerEvent: {}
+[29.391168] (-) TimerEvent: {}
+[29.491445] (-) TimerEvent: {}
+[29.591807] (-) TimerEvent: {}
+[29.692068] (-) TimerEvent: {}
+[29.792381] (-) TimerEvent: {}
+[29.892680] (-) TimerEvent: {}
+[29.993053] (-) TimerEvent: {}
+[30.093388] (-) TimerEvent: {}
+[30.193717] (-) TimerEvent: {}
+[30.293965] (-) TimerEvent: {}
+[30.394217] (-) TimerEvent: {}
+[30.494502] (-) TimerEvent: {}
+[30.594803] (-) TimerEvent: {}
+[30.695037] (-) TimerEvent: {}
+[30.795396] (-) TimerEvent: {}
+[30.895808] (-) TimerEvent: {}
+[30.996064] (-) TimerEvent: {}
+[31.096354] (-) TimerEvent: {}
+[31.196687] (-) TimerEvent: {}
+[31.297116] (-) TimerEvent: {}
+[31.397489] (-) TimerEvent: {}
+[31.497830] (-) TimerEvent: {}
+[31.598142] (-) TimerEvent: {}
+[31.698414] (-) TimerEvent: {}
+[31.798795] (-) TimerEvent: {}
+[31.899108] (-) TimerEvent: {}
+[31.999368] (-) TimerEvent: {}
+[32.099627] (-) TimerEvent: {}
+[32.199965] (-) TimerEvent: {}
+[32.300287] (-) TimerEvent: {}
+[32.400644] (-) TimerEvent: {}
+[32.500998] (-) TimerEvent: {}
+[32.601263] (-) TimerEvent: {}
+[32.701579] (-) TimerEvent: {}
+[32.801967] (-) TimerEvent: {}
+[32.902252] (-) TimerEvent: {}
+[33.002572] (-) TimerEvent: {}
+[33.102764] (-) TimerEvent: {}
+[33.203100] (-) TimerEvent: {}
+[33.303433] (-) TimerEvent: {}
+[33.403726] (-) TimerEvent: {}
+[33.504006] (-) TimerEvent: {}
+[33.604278] (-) TimerEvent: {}
+[33.704543] (-) TimerEvent: {}
+[33.804862] (-) TimerEvent: {}
+[33.905201] (-) TimerEvent: {}
+[34.005476] (-) TimerEvent: {}
+[34.105808] (-) TimerEvent: {}
+[34.206168] (-) TimerEvent: {}
+[34.306406] (-) TimerEvent: {}
+[34.406800] (-) TimerEvent: {}
+[34.507242] (-) TimerEvent: {}
+[34.607643] (-) TimerEvent: {}
+[34.707893] (-) TimerEvent: {}
+[34.808259] (-) TimerEvent: {}
+[34.908506] (-) TimerEvent: {}
+[35.008781] (-) TimerEvent: {}
+[35.109107] (-) TimerEvent: {}
+[35.209448] (-) TimerEvent: {}
+[35.309796] (-) TimerEvent: {}
+[35.410103] (-) TimerEvent: {}
+[35.510364] (-) TimerEvent: {}
+[35.610670] (-) TimerEvent: {}
+[35.710928] (-) TimerEvent: {}
+[35.811206] (-) TimerEvent: {}
+[35.911460] (-) TimerEvent: {}
+[36.011729] (-) TimerEvent: {}
+[36.112071] (-) TimerEvent: {}
+[36.212405] (-) TimerEvent: {}
+[36.312748] (-) TimerEvent: {}
+[36.413000] (-) TimerEvent: {}
+[36.513286] (-) TimerEvent: {}
+[36.613526] (-) TimerEvent: {}
+[36.713800] (-) TimerEvent: {}
+[36.814094] (-) TimerEvent: {}
+[36.914315] (-) TimerEvent: {}
+[37.014657] (-) TimerEvent: {}
+[37.114958] (-) TimerEvent: {}
+[37.215297] (-) TimerEvent: {}
+[37.315551] (-) TimerEvent: {}
+[37.415909] (-) TimerEvent: {}
+[37.516158] (-) TimerEvent: {}
+[37.616440] (-) TimerEvent: {}
+[37.716855] (-) TimerEvent: {}
+[37.817180] (-) TimerEvent: {}
+[37.917478] (-) TimerEvent: {}
+[38.017824] (-) TimerEvent: {}
+[38.118128] (-) TimerEvent: {}
+[38.218499] (-) TimerEvent: {}
+[38.318887] (-) TimerEvent: {}
+[38.419172] (-) TimerEvent: {}
+[38.519425] (-) TimerEvent: {}
+[38.619661] (-) TimerEvent: {}
+[38.719956] (-) TimerEvent: {}
+[38.820187] (-) TimerEvent: {}
+[38.920481] (-) TimerEvent: {}
+[39.020845] (-) TimerEvent: {}
+[39.121186] (-) TimerEvent: {}
+[39.221417] (-) TimerEvent: {}
+[39.321719] (-) TimerEvent: {}
+[39.422057] (-) TimerEvent: {}
+[39.522384] (-) TimerEvent: {}
+[39.622732] (-) TimerEvent: {}
+[39.723003] (-) TimerEvent: {}
+[39.823360] (-) TimerEvent: {}
+[39.923666] (-) TimerEvent: {}
+[40.023899] (-) TimerEvent: {}
+[40.124149] (-) TimerEvent: {}
+[40.224445] (-) TimerEvent: {}
+[40.324796] (-) TimerEvent: {}
+[40.425045] (-) TimerEvent: {}
+[40.525348] (-) TimerEvent: {}
+[40.625645] (-) TimerEvent: {}
+[40.725966] (-) TimerEvent: {}
+[40.826288] (-) TimerEvent: {}
+[40.926573] (-) TimerEvent: {}
+[41.026842] (-) TimerEvent: {}
+[41.127087] (-) TimerEvent: {}
+[41.227326] (-) TimerEvent: {}
+[41.327621] (-) TimerEvent: {}
+[41.427866] (-) TimerEvent: {}
+[41.528244] (-) TimerEvent: {}
+[41.628495] (-) TimerEvent: {}
+[41.728818] (-) TimerEvent: {}
+[41.829047] (-) TimerEvent: {}
+[41.929279] (-) TimerEvent: {}
+[42.029597] (-) TimerEvent: {}
+[42.129939] (-) TimerEvent: {}
+[42.230218] (-) TimerEvent: {}
+[42.330531] (-) TimerEvent: {}
+[42.430791] (-) TimerEvent: {}
+[42.531039] (-) TimerEvent: {}
+[42.631363] (-) TimerEvent: {}
+[42.731677] (-) TimerEvent: {}
+[42.832042] (-) TimerEvent: {}
+[42.932378] (-) TimerEvent: {}
+[43.032673] (-) TimerEvent: {}
+[43.133016] (-) TimerEvent: {}
+[43.233327] (-) TimerEvent: {}
+[43.333651] (-) TimerEvent: {}
+[43.433984] (-) TimerEvent: {}
+[43.534240] (-) TimerEvent: {}
+[43.634581] (-) TimerEvent: {}
+[43.734902] (-) TimerEvent: {}
+[43.835220] (-) TimerEvent: {}
+[43.935566] (-) TimerEvent: {}
+[44.035917] (-) TimerEvent: {}
+[44.136275] (-) TimerEvent: {}
+[44.236582] (-) TimerEvent: {}
+[44.336903] (-) TimerEvent: {}
+[44.354422] (fast_lio) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable fastlio_mapping\x1b[0m\n'}
+[44.437077] (-) TimerEvent: {}
+[44.537474] (-) TimerEvent: {}
+[44.637834] (-) TimerEvent: {}
+[44.738221] (-) TimerEvent: {}
+[44.838619] (-) TimerEvent: {}
+[44.939041] (-) TimerEvent: {}
+[45.039450] (-) TimerEvent: {}
+[45.101751] (fast_lio) StdoutLine: {'line': b'[100%] Built target fastlio_mapping\n'}
+[45.109072] (fast_lio) CommandEnded: {'returncode': 0}
+[45.109482] (fast_lio) JobProgress: {'identifier': 'fast_lio', 'progress': 'install'}
+[45.114377] (fast_lio) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/build/fast_lio'], 'cwd': '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/build/fast_lio', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root1'), ('LC_TIME', 'ur_PK'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/root1/ompl/build/src/ompl:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/root1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ur_PK'), ('MANAGERPID', '2101'), ('SYSTEMD_EXEC_PID', '2633933'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2634714'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/root1/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root1'), ('JOURNAL_STREAM', '8:10990794'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'root1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/root1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/root1-OptiPlex-5000:@/tmp/.ICE-unix/2633904,unix/root1-OptiPlex-5000:/tmp/.ICE-unix/2633904'), ('INVOCATION_ID', '22398699dc9b470bac3fb9b56d311cd5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ur_PK'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ur_PK'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q42V42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ur_PK'), ('TERMINATOR_UUID', 'urn:uuid:4e3fa326-99b8-4b24-b693-61763cf7c60d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ur_PK'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ur_PK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/build/fast_lio'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/root1/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ur_PK'), ('LC_PAPER', 'ur_PK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/usr/local:/usr/local:/opt/ros/humble')]), 'shell': False}
+[45.121118] (fast_lio) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[45.121248] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio\n'}
+[45.121292] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio\n'}
+[45.121344] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[45.121382] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[45.121424] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h\n'}
+[45.121495] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h\n'}
+[45.121557] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h\n'}
+[45.121609] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.c\n'}
+[45.121666] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h\n'}
+[45.121719] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h\n'}
+[45.121911] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/environment/library_path.sh\n'}
+[45.122067] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/environment/library_path.dsv\n'}
+[45.122211] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so\n'}
+[45.122455] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so" to ""\n'}
+[45.122499] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio\n'}
+[45.122551] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[45.122593] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[45.122618] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h\n'}
+[45.122662] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[45.122816] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so\n'}
+[45.122968] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[45.123002] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio\n'}
+[45.123042] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[45.123074] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[45.123099] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp\n'}
+[45.123137] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp\n'}
+[45.123162] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp\n'}
+[45.123199] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp\n'}
+[45.123223] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp\n'}
+[45.123257] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[45.123288] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio\n'}
+[45.123323] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[45.123350] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[45.123387] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[45.123424] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/dds_fastrtps\n'}
+[45.123463] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[45.123490] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so\n'}
+[45.123565] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[45.123604] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio\n'}
+[45.123630] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[45.123670] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[45.123694] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h\n'}
+[45.123731] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.c\n'}
+[45.123757] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[45.123793] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so\n'}
+[45.123874] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so" to ""\n'}
+[45.123910] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so\n'}
+[45.123995] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so" to ""\n'}
+[45.124029] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio\n'}
+[45.124064] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg\n'}
+[45.124106] (fast_lio) StdoutLine: {'line': b'-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail\n'}
+[45.124132] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[45.124157] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.cpp\n'}
+[45.124192] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so\n'}
+[45.124246] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[45.124280] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so\n'}
+[45.124371] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so" to ""\n'}
+[45.124401] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/environment/pythonpath.sh\n'}
+[45.124440] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/environment/pythonpath.dsv\n'}
+[45.124481] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info\n'}
+[45.124543] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[45.124578] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[45.124610] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[45.124643] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[45.125030] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio\n'}
+[45.125084] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg\n'}
+[45.125115] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py\n'}
+[45.125150] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py\n'}
+[45.125174] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d_s.c\n'}
+[45.125211] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c\n'}
+[45.125237] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[45.125273] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py\n'}
+[45.125308] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[45.125345] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[45.125380] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/libfast_lio__rosidl_generator_py.so\n'}
+[45.125415] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[45.125448] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[45.139527] (-) TimerEvent: {}
+[45.146742] (fast_lio) StdoutLine: {'line': b"Listing '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio'...\n"}
+[45.146953] (fast_lio) StdoutLine: {'line': b"Compiling '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/__init__.py'...\n"}
+[45.146998] (fast_lio) StdoutLine: {'line': b"Listing '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg'...\n"}
+[45.147029] (fast_lio) StdoutLine: {'line': b"Compiling '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/__init__.py'...\n"}
+[45.147072] (fast_lio) StdoutLine: {'line': b"Compiling '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/msg/_pose6_d.py'...\n"}
+[45.150198] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[45.150417] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[45.150485] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[45.150788] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[45.150826] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[45.150877] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/local/lib/python3.10/dist-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[45.150920] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so\n'}
+[45.151129] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so" to ""\n'}
+[45.151162] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/msg/Pose6D.idl\n'}
+[45.151195] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/msg/Pose6D.msg\n'}
+[45.151237] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/fast_lio/fastlio_mapping\n'}
+[45.152530] (fast_lio) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/lib/fast_lio/fastlio_mapping" to ""\n'}
+[45.152583] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/config\n'}
+[45.152621] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/config/ouster64.yaml\n'}
+[45.152674] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/config/velodyne.yaml\n'}
+[45.152718] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/config/horizon.yaml\n'}
+[45.152770] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/config/avia.yaml\n'}
+[45.152809] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/config/mid360.yaml\n'}
+[45.152849] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/launch\n'}
+[45.152911] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/launch/mapping.launch.py\n'}
+[45.152977] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch\n'}
+[45.153018] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/rviz\n'}
+[45.153056] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/rviz/fastlio.rviz\n'}
+[45.153205] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio\n'}
+[45.153261] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio\n'}
+[45.153312] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh\n'}
+[45.153365] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv\n'}
+[45.153416] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/environment/path.sh\n'}
+[45.153469] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/environment/path.dsv\n'}
+[45.153513] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/local_setup.bash\n'}
+[45.153559] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/local_setup.sh\n'}
+[45.153609] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/local_setup.zsh\n'}
+[45.153656] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/local_setup.dsv\n'}
+[45.153701] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/package.dsv\n'}
+[45.153778] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/ament_index/resource_index/packages/fast_lio\n'}
+[45.153849] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake\n'}
+[45.153909] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake\n'}
+[45.153967] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[45.154010] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[45.154061] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake\n'}
+[45.154109] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[45.154155] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[45.154205] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake\n'}
+[45.154251] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[45.154301] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake\n'}
+[45.154347] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake\n'}
+[45.154398] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[45.154450] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[45.154498] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake\n'}
+[45.154543] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake\n'}
+[45.154591] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake\n'}
+[45.154638] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake\n'}
+[45.154681] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake\n'}
+[45.154727] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[45.154771] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[45.154820] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[45.154865] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[45.154905] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[45.154950] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[45.154996] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake\n'}
+[45.155032] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake\n'}
+[45.155081] (fast_lio) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/FASTLIOROS2/install/fast_lio/share/fast_lio/package.xml\n'}
+[45.156772] (fast_lio) CommandEnded: {'returncode': 0}
+[45.171296] (fast_lio) JobEnded: {'identifier': 'fast_lio', 'rc': 0}
+[45.171796] (-) EventReactorShutdown: {}

@@ -1,0 +1,382 @@
+[0.005s] Invoking command in '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2 -DCMAKE_INSTALL_PREFIX=/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2
+[0.041s] -- The C compiler identification is GNU 11.4.0
+[0.074s] -- The CXX compiler identification is GNU 11.4.0
+[0.081s] -- Detecting C compiler ABI info
+[0.125s] -- Detecting C compiler ABI info - done
+[0.129s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.129s] -- Detecting C compile features
+[0.129s] -- Detecting C compile features - done
+[0.131s] -- Detecting CXX compiler ABI info
+[0.182s] -- Detecting CXX compiler ABI info - done
+[0.186s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.186s] -- Detecting CXX compile features
+[0.186s] -- Detecting CXX compile features - done
+[0.188s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.281s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.331s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.356s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.359s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.364s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.403s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.405s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.419s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.424s] -- Looking for pthread.h
+[0.476s] -- Looking for pthread.h - found
+[0.476s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.520s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.521s] -- Found Threads: TRUE  
+[0.550s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.574s] -- Checking for module 'eigen3'
+[0.582s] --   Found eigen3, version 3.4.0
+[0.603s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.603s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.616s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.625s] -- Checking for module 'flann'
+[0.633s] --   Found flann, version 1.9.1
+[0.661s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.661s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.683s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.686s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.778s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[0.778s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.780s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.785s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.794s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[0.804s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[0.861s] -- Found X11: /usr/include   
+[0.861s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.910s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.910s] -- Looking for gethostbyname
+[0.956s] -- Looking for gethostbyname - found
+[0.956s] -- Looking for connect
+[1.001s] -- Looking for connect - found
+[1.001s] -- Looking for remove
+[1.044s] -- Looking for remove - found
+[1.044s] -- Looking for shmat
+[1.090s] -- Looking for shmat - found
+[1.090s] -- Looking for IceConnectionNumber in ICE
+[1.137s] -- Looking for IceConnectionNumber in ICE - found
+[1.190s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.192s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.194s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.195s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.203s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.206s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.208s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.212s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.263s] -- Checking for module 'libusb-1.0'
+[1.271s] --   Found libusb-1.0, version 1.0.25
+[1.293s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.294s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.294s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.330s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.330s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.330s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.418s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.422s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.426s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.519s] -- Found Qhull version 8.0.2
+[1.610s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.697s] -- looking for PCL_COMMON
+[1.698s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.698s] -- looking for PCL_KDTREE
+[1.698s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.699s] -- looking for PCL_OCTREE
+[1.699s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.699s] -- looking for PCL_SEARCH
+[1.699s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.700s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.700s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.700s] -- looking for PCL_FILTERS
+[1.701s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.701s] -- looking for PCL_2D
+[1.701s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[1.701s] -- looking for PCL_GEOMETRY
+[1.701s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[1.701s] -- looking for PCL_IO
+[1.701s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.701s] -- looking for PCL_FEATURES
+[1.702s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.702s] -- looking for PCL_ML
+[1.702s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.702s] -- looking for PCL_SEGMENTATION
+[1.703s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.703s] -- looking for PCL_VISUALIZATION
+[1.703s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.703s] -- looking for PCL_SURFACE
+[1.704s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.704s] -- looking for PCL_REGISTRATION
+[1.705s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.705s] -- looking for PCL_KEYPOINTS
+[1.705s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.705s] -- looking for PCL_TRACKING
+[1.706s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.706s] -- looking for PCL_RECOGNITION
+[1.706s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.706s] -- looking for PCL_STEREO
+[1.707s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.707s] -- looking for PCL_APPS
+[1.707s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.708s] -- looking for PCL_IN_HAND_SCANNER
+[1.708s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[1.708s] -- looking for PCL_MODELER
+[1.708s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[1.708s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.708s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[1.708s] -- looking for PCL_OUTOFCORE
+[1.709s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.709s] -- looking for PCL_PEOPLE
+[1.709s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.710s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.10") 
+[1.711s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.729s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.738s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.750s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.917s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[1.971s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.971s] -- Found OpenMP: TRUE (found version "4.5")  
+[1.972s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.990s] -- Found octomap_msgs: 2.0.1 (/opt/ros/humble/share/octomap_msgs/cmake)
+[1.999s] -- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)
+[2.002s] -- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.039s] -- Found tf2_geometry_msgs: 0.25.11 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.046s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.047s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.047s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.093s] -- Configuring done
+[2.131s] -- Generating done
+[2.141s] -- Build files have been written to: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2
+[2.152s] Invoked command in '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2 -DCMAKE_INSTALL_PREFIX=/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2
+[2.153s] Invoking command in '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2 -- -j20 -l20
+[2.186s] [  9%] [32mBuilding CXX object CMakeFiles/octomap_server.dir/rclcpp_components/node_main_octomap_server.cpp.o[0m
+[2.188s] [ 36%] [32mBuilding CXX object CMakeFiles/octomap_server2.dir/src/transforms.cpp.o[0m
+[2.188s] [ 36%] [32mBuilding CXX object CMakeFiles/octomap_server2.dir/src/load_octomap_node.cpp.o[0m
+[2.188s] [ 45%] [32mBuilding CXX object CMakeFiles/octomap_server2.dir/src/conversions.cpp.o[0m
+[2.188s] [ 45%] [32mBuilding CXX object CMakeFiles/octomap_analyzer.dir/src/octomap_analyzer.cpp.o[0m
+[2.189s] [ 54%] [32mBuilding CXX object CMakeFiles/octomap_server2.dir/src/octomap_server.cpp.o[0m
+[2.298s] In file included from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/conversions.h:50[m[K,
+[2.298s]                  from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/conversions.cpp:40[m[K:
+[2.298s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[2.298s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[2.299s]       |  [01;35m[K^~~~~~~[m[K
+[3.445s] In file included from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/conversions.h:50[m[K,
+[3.445s]                  from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:51[m[K,
+[3.445s]                  from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/load_octomap_node.cpp:1[m[K:
+[3.445s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[3.445s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[3.445s]       |  [01;35m[K^~~~~~~[m[K
+[3.445s] In file included from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/conversions.h:50[m[K,
+[3.445s]                  from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:51[m[K,
+[3.445s]                  from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:2[m[K:
+[3.445s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[3.445s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[3.445s]       |  [01;35m[K^~~~~~~[m[K
+[3.953s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_analyzer.cpp:[m[K In member function ‘[01m[Kvoid OctomapAnalyzer::octomapCallback(octomap_msgs::msg::Octomap_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.953s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_analyzer.cpp:71:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktotal_cells[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.953s]    71 |         int [01;35m[Ktotal_cells[m[K = 0;
+[3.954s]       |             [01;35m[K^~~~~~~~~~~[m[K
+[4.074s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/conversions.cpp:[m[K In function ‘[01m[Kvoid octomap::pointsOctomapToPointCloud2(const point3d_list&, sensor_msgs::msg::PointCloud2&)[m[K’:
+[4.074s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/conversions.cpp:53:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpoints[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.074s]    53 |     void pointsOctomapToPointCloud2([01;35m[Kconst point3d_list& points[m[K,
+[4.074s]       |                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[4.335s] [ 63%] [32m[1mLinking CXX executable octomap_server[0m
+[4.432s] [ 63%] Built target octomap_server
+[6.069s] In file included from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/load_octomap_node.cpp:1[m[K:
+[6.069s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:[m[K In member function ‘[01m[Kvirtual void octomap_server::OctomapServer::handleNode(const iterator&)[m[K’:
+[6.070s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:210:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.070s]   210 |         virtual void handleNode([01;35m[Kconst OcTreeT::iterator& it[m[K) {};
+[6.070s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.070s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:[m[K In member function ‘[01m[Kvirtual void octomap_server::OctomapServer::handleNodeInBBX(const iterator&)[m[K’:
+[6.070s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:211:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.070s]   211 |         virtual void handleNodeInBBX([01;35m[Kconst OcTreeT::iterator& it[m[K) {};
+[6.070s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.078s] In file included from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:2[m[K:
+[6.078s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:[m[K In member function ‘[01m[Kvirtual void octomap_server::OctomapServer::handleNode(const iterator&)[m[K’:
+[6.078s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:210:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.078s]   210 | [01;35m[KcTreeT::iterator& it[m[K) {};
+[6.078s]       | [01;35m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.078s] 
+[6.078s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:[m[K In member function ‘[01m[Kvirtual void octomap_server::OctomapServer::handleNodeInBBX(const iterator&)[m[K’:
+[6.078s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:211:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.078s]   211 | [01;35m[KcTreeT::iterator& it[m[K) {};
+[6.078s]       | [01;35m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[6.078s] 
+[6.078s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:[m[K In constructor ‘[01m[Koctomap_server::OctomapServer::OctomapServer(const rclcpp::NodeOptions&, std::string)[m[K’:
+[6.078s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:148:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Koctomap_server::OctomapServer::m_useColoredMap[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.078s]   148 |         bool [01;35m[Km_useColoredMap[m[K;
+[6.078s]       |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[6.078s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:118:16:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble octomap_server::OctomapServer::m_colorFactor[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.078s]   118 |        double [01;35m[Km_colorFactor[m[K;
+[6.078s]       |               [01;35m[K^~~~~~~~~~~~~[m[K
+[6.078s] 
+[6.078s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:5:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.078s]     5 |     [01;35m[KOctomapServer[m[K::OctomapServer(
+[6.078s]       |     [01;35m[K^~~~~~~~~~~~~[m[K
+[6.134s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.134s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.134s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.134s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.134s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.134s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.135s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.135s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.135s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.135s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.135s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.135s]                  from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:8[m[K,
+[6.135s]                  from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:2[m[K:
+[6.135s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:[m[K In member function ‘[01m[Kvirtual void octomap_server::OctomapServer::insertCloudCallback(const ConstSharedPtr&)[m[K’:
+[6.135s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:342:50:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[6.135s]   342 | get_logger(), [01;35m[K"%s %"[m[K, msg, ex.what());
+[6.135s]       |               [01;35m[K^~~~~~[m[K
+[6.135s] 
+[6.135s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:342:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[6.135s]   342 | t_logger(), "[01;36m[K%s[m[K %", msg, ex.what());
+[6.135s]       |              [01;36m[K~^[m[K
+[6.135s]       |               [01;36m[K|[m[K
+[6.135s]       |               [01;36m[Kchar*[m[K
+[6.135s] 
+[6.135s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.136s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.136s]                  from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:8[m[K,
+[6.136s]                  from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:2[m[K:
+[6.136s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:342:50:[m[K [01;35m[Kwarning: [m[Kspurious trailing ‘[01m[K%[m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[6.136s]   342 | get_logger(), [01;35m[K"%s %"[m[K, msg, ex.what());
+[6.136s]       |               [01;35m[K^~~~~~[m[K
+[6.136s] 
+[6.136s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:342:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[6.136s]   342 | logger(), "%s [01;36m[K%[m[K", msg, ex.what());
+[6.136s]       |               [01;36m[K^[m[K
+[6.136s] 
+[6.137s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.137s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.137s]                  from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:8[m[K,
+[6.137s]                  from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:2[m[K:
+[6.137s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:342:50:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[6.137s]   342 | get_logger(), [01;35m[K"%s %"[m[K, msg, ex.what());
+[6.137s]       |               [01;35m[K^~~~~~[m[K
+[6.137s] 
+[6.141s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:[m[K In member function ‘[01m[Kvirtual void octomap_server::OctomapServer::publishAll(const rclcpp::Time&)[m[K’:
+[6.142s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:616:28:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.142s]   616 |        double [01;35m[Ksize[m[K = it.getSize();
+[6.142s]       |               [01;35m[K^~~~[m[K
+[6.142s] 
+[6.146s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:[m[K In member function ‘[01m[Kvirtual bool octomap_server::OctomapServer::octomapBinarySrv(std::shared_ptr<octomap_msgs::srv::GetOctomap_Request_<std::allocator<void> > >, std::shared_ptr<octomap_msgs::srv::GetOctomap_Response_<std::allocator<void> > >)[m[K’:
+[6.146s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:803:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.146s]   803 | [01;35m[KOctomapSrv::Request> req[m[K,
+[6.146s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.146s] 
+[6.147s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:[m[K In member function ‘[01m[Kvirtual bool octomap_server::OctomapServer::octomapFullSrv(std::shared_ptr<octomap_msgs::srv::GetOctomap_Request_<std::allocator<void> > >, std::shared_ptr<octomap_msgs::srv::GetOctomap_Response_<std::allocator<void> > >)[m[K’:
+[6.147s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:822:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.147s]   822 | [01;35m[KOctomapSrv::Request> req[m[K,
+[6.147s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.147s] 
+[6.149s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:[m[K In member function ‘[01m[Kbool octomap_server::OctomapServer::clearBBXSrv(std::shared_ptr<octomap_msgs::srv::BoundingBoxQuery_Request_<std::allocator<void> > >, std::shared_ptr<octomap_msgs::srv::BoundingBoxQuery_Response_<std::allocator<void> > >)[m[K’:
+[6.149s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:837:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.149s]   837 | [01;35m[KBBXSrv::Response> resp[m[K) {
+[6.150s]       | [01;35m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[6.150s] 
+[6.152s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:[m[K In member function ‘[01m[Kbool octomap_server::OctomapServer::resetSrv(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[6.152s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:875:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<visualization_msgs::msg::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::msg::Marker_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.152s]   875 | auto i = 0; [01;35m[Ki < occupiedNodesVis.markers.size()[m[K; ++i){
+[6.152s]       |             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.153s] 
+[6.153s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:891:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<visualization_msgs::msg::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::msg::Marker_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.153s]   891 | auto i = 0; [01;35m[Ki < freeNodesVis.markers.size()[m[K; ++i) {
+[6.153s]       |             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.153s] 
+[6.153s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:855:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.153s]   855 | [01;35m[Ksrv::Empty::Request> req[m[K,
+[6.153s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[6.153s] 
+[6.153s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:856:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.153s]   856 | [01;35m[K:Empty::Response> resp[m[K) {
+[6.153s]       | [01;35m[K~~~~~~~~~~~~~~~~~~^~~~[m[K
+[6.153s] 
+[6.167s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:[m[K In member function ‘[01m[Kvirtual void octomap_server::OctomapServer::handlePreNodeTraversal(const rclcpp::Time&)[m[K’:
+[6.167s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:1183:59:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.167s]  1183 | ateBBXMinY; [01;35m[Kj <= mapUpdateBBXMaxY[m[K; ++j) {
+[6.167s]       |             [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.167s] 
+[6.168s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:[m[K In member function ‘[01m[Kvirtual void octomap_server::OctomapServer::handlePostNodeTraversal(const rclcpp::Time&)[m[K’:
+[6.168s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:1193:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krostime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.168s]  1193 | [01;35m[Kt rclcpp::Time& rostime[m[K){
+[6.168s]       | [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.168s] 
+[7.321s] [ 72%] [32m[1mLinking CXX executable octomap_analyzer[0m
+[7.532s] [ 72%] Built target octomap_analyzer
+[14.814s] [ 81%] [32m[1mLinking CXX shared library liboctomap_server2.so[0m
+[16.223s] [ 81%] Built target octomap_server2
+[16.241s] [ 90%] [32mBuilding CXX object CMakeFiles/load_octomap_node.dir/src/load_octomap_node.cpp.o[0m
+[17.410s] In file included from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/conversions.h:50[m[K,
+[17.410s]                  from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:51[m[K,
+[17.410s]                  from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/load_octomap_node.cpp:1[m[K:
+[17.410s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[17.410s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[17.410s]       |  [01;35m[K^~~~~~~[m[K
+[19.704s] In file included from [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/load_octomap_node.cpp:1[m[K:
+[19.704s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:[m[K In member function ‘[01m[Kvirtual void octomap_server::OctomapServer::handleNode(const iterator&)[m[K’:
+[19.704s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:210:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[19.704s]   210 | [01;35m[KcTreeT::iterator& it[m[K) {};
+[19.704s]       | [01;35m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[19.704s] 
+[19.704s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:[m[K In member function ‘[01m[Kvirtual void octomap_server::OctomapServer::handleNodeInBBX(const iterator&)[m[K’:
+[19.704s] [01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:211:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[19.704s]   211 | [01;35m[KcTreeT::iterator& it[m[K) {};
+[19.704s]       | [01;35m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[19.704s] 
+[20.430s] [100%] [32m[1mLinking CXX executable load_octomap_node[0m
+[21.988s] [100%] Built target load_octomap_node
+[21.995s] Invoked command in '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2 -- -j20 -l20
+[22.001s] Invoking command in '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2
+[22.008s] -- Install configuration: ""
+[22.008s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/octomap_server
+[22.008s] -- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/octomap_server" to ""
+[22.009s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/liboctomap_server2.so
+[22.015s] -- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/liboctomap_server2.so" to ""
+[22.015s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/load_octomap_node
+[22.015s] -- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/load_octomap_node" to ""
+[22.016s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/octomap_analyzer
+[22.017s] -- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/octomap_analyzer" to ""
+[22.017s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2//launch
+[22.017s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2//launch/octomap_server_launch.py
+[22.017s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2//launch/load_octomap.launch.py
+[22.017s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2//maps
+[22.017s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2//maps/map2.ot
+[22.034s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/ament_index/resource_index/package_run_dependencies/octomap_server2
+[22.034s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/ament_index/resource_index/parent_prefix_path/octomap_server2
+[22.034s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/environment/ament_prefix_path.sh
+[22.034s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/environment/ament_prefix_path.dsv
+[22.034s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/environment/path.sh
+[22.035s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/environment/path.dsv
+[22.035s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/local_setup.bash
+[22.035s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/local_setup.sh
+[22.035s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/local_setup.zsh
+[22.035s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/local_setup.dsv
+[22.035s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/package.dsv
+[22.035s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/ament_index/resource_index/packages/octomap_server2
+[22.035s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/ament_index/resource_index/rclcpp_components/octomap_server2
+[22.035s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/cmake/octomap_server2Config.cmake
+[22.035s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/cmake/octomap_server2Config-version.cmake
+[22.035s] -- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/package.xml
+[22.037s] Invoked command in '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2

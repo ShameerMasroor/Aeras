@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-692c02fff7382aeef103.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ompl_example_2d",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ompl_example_2d_library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ompl_example_2d_library-3b89f8d1d514c7e37d75.json",
+					"name" : "ompl_example_2d_library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ompl_example_2d_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ompl_example_2d_node-842c4d3ced0846fe7671.json",
+					"name" : "ompl_example_2d_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ompl_example_2d_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ompl_example_2d_uninstall-5bc79defc362edc3f51d.json",
+					"name" : "ompl_example_2d_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4c5014d514948d4a958d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hu/ompl_example_2d/build/ompl_example_2d",
+		"source" : "/home/hu/ompl_example_2d"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

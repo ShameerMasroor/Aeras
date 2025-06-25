@@ -1,0 +1,4 @@
+source;share/octomap_server2/local_setup.bash
+source;share/octomap_server2/local_setup.dsv
+source;share/octomap_server2/local_setup.sh
+source;share/octomap_server2/local_setup.zsh

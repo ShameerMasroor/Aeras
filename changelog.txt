@@ -1,0 +1,61 @@
+
+---8th December---
+Included the gt_pose and error publisher into the sjtu launch file
+Set up RVIZ config file such that only a single one is needed for our work
+Modified the gt_pose function to publish errors and rmse.
+
+
+---9th December ---
+
+Reduced the lidar resolution to speed up the simulation
+Introduced a 50x50 world for gazebo. 
+Cleaned the playground world.
+Increased max time step from 0.001 to 0.003. This speeds up the simulation
+Made relatime settings '0'. This makes the simulation run as fast as possible.
+
+15th Jan
+Full autonomy achieved
+
+14th Feb:
+
+Thermal camera view and ray casting can now be observed on RVIZ
+
+
+
+
+--- 1st March ---
+
+1. Turned off gui on Gazebo
+2. Tweaked the Gazebo launch file to make use of sensor performance tricks.
+3. World physics engine tweaked.
+4. FASTLIO now publishes its path faster. The pose is extracted from the path.
+This overall sped up the simulation
+
+
+--- 11th March ---
+
+1. Added a node to the octomap package that tracks the exploration percentage
+2. Increased octomap resolution to 0.9m from 0.5m. 
+
+
+--- 31st March ---
+1. Added thermal based exploration
+
+--- 1st April ---
+
+1. Added markers for heat signature visualization
+2. Added an option to continue or stop the mission
+3. A circle is now defined around the region where the person is probable to be found.
+4. New thermal model added
+5. After selection of a frontier in thermal exploration based on angle, the selection is further refined by selecting of a candidate that most closely aligns with the angle of the object detected.
+6. Confidence score checker implemented. It stops the mission when a certain confidence score is exceeded, and asks to whether continue the mission or stop it.
+
+--- 2nd April ---
+
+1. An issue was noted with the OMPL node where no path was being published after being requested. The node was reworked, and the issue was resolved.
+2. Drone yaw now follows heat signature when detected.
+
+Notes:
+
+---To save map---
+ros2 service call /map_save std_srvs/Empty  (LI-SLAM ONLY)

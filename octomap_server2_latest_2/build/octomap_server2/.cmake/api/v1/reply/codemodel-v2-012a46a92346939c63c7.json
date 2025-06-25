@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7e2ecf401d14f05ade62.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "octomap_server2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "load_octomap_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-load_octomap_node-690fb036cda8257165aa.json",
+					"name" : "load_octomap_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_analyzer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_analyzer-c95e853d18d13e9c1c27.json",
+					"name" : "octomap_analyzer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_server-e09a7b283bedea34ab84.json",
+					"name" : "octomap_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_server2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_server2-e468bbb311011ec48397.json",
+					"name" : "octomap_server2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "octomap_server2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-octomap_server2_uninstall-89bd04c87a0995b5c082.json",
+					"name" : "octomap_server2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a7e382998faa6f62f178.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2",
+		"source" : "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

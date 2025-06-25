@@ -1,0 +1,609 @@
+[0.000000] (-) TimerEvent: {}
+[0.000392] (octomap_server2) JobQueued: {'identifier': 'octomap_server2', 'dependencies': OrderedDict()}
+[0.000453] (octomap_server2) JobStarted: {'identifier': 'octomap_server2'}
+[0.004193] (octomap_server2) JobProgress: {'identifier': 'octomap_server2', 'progress': 'cmake'}
+[0.004438] (octomap_server2) Command: {'cmd': ['/usr/bin/cmake', '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2', '-DCMAKE_INSTALL_PREFIX=/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2'], 'cwd': '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root1'), ('LC_TIME', 'ur_PK'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/root1/ompl/build/src/ompl:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/root1'), ('OLDPWD', '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ur_PK'), ('MANAGERPID', '2101'), ('SYSTEMD_EXEC_PID', '379461'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '380249'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/root1/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root1'), ('JOURNAL_STREAM', '8:3859333'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'root1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/root1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/root1-OptiPlex-5000:@/tmp/.ICE-unix/379432,unix/root1-OptiPlex-5000:/tmp/.ICE-unix/379432'), ('INVOCATION_ID', '132605c3db514ff3a8a5c0bbb5a5e44b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ur_PK'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ur_PK'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T5I442'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ur_PK'), ('TERMINATOR_UUID', 'urn:uuid:75a3e1b2-1d6b-467b-b255-ed2987b1c584'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ur_PK'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ur_PK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/root1/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ur_PK'), ('LC_PAPER', 'ur_PK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/usr/local:/usr/local:/opt/ros/humble')]), 'shell': False}
+[0.041785] (octomap_server2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.074828] (octomap_server2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.081850] (octomap_server2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099938] (-) TimerEvent: {}
+[0.125483] (octomap_server2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.129480] (octomap_server2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.129556] (octomap_server2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.129748] (octomap_server2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.131495] (octomap_server2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.181948] (octomap_server2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.186050] (octomap_server2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.186154] (octomap_server2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.186399] (octomap_server2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.188157] (octomap_server2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200033] (-) TimerEvent: {}
+[0.280960] (octomap_server2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.300134] (-) TimerEvent: {}
+[0.331472] (octomap_server2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.356748] (octomap_server2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.359552] (octomap_server2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.364012] (octomap_server2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.370903] (octomap_server2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.380286] (octomap_server2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400228] (-) TimerEvent: {}
+[0.403650] (octomap_server2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.405242] (octomap_server2) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.419629] (octomap_server2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.424399] (octomap_server2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.476139] (octomap_server2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.476265] (octomap_server2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.500415] (-) TimerEvent: {}
+[0.520435] (octomap_server2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.521268] (octomap_server2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.550061] (octomap_server2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.574405] (octomap_server2) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.582538] (octomap_server2) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.600584] (-) TimerEvent: {}
+[0.603670] (octomap_server2) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.603740] (octomap_server2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.616160] (octomap_server2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[0.625081] (octomap_server2) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.633783] (octomap_server2) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.661328] (octomap_server2) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.661409] (octomap_server2) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.683077] (octomap_server2) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[0.686424] (octomap_server2) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[0.700687] (-) TimerEvent: {}
+[0.778124] (octomap_server2) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[0.778350] (octomap_server2) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[0.780302] (octomap_server2) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[0.785285] (octomap_server2) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[0.794589] (octomap_server2) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[0.800843] (-) TimerEvent: {}
+[0.803927] (octomap_server2) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[0.861196] (octomap_server2) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[0.861425] (octomap_server2) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[0.901033] (-) TimerEvent: {}
+[0.910428] (octomap_server2) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[0.910514] (octomap_server2) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[0.956686] (octomap_server2) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[0.956799] (octomap_server2) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.001147] (-) TimerEvent: {}
+[1.001578] (octomap_server2) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.001658] (octomap_server2) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.044776] (octomap_server2) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.044891] (octomap_server2) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.089899] (octomap_server2) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.090023] (octomap_server2) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.101261] (-) TimerEvent: {}
+[1.137714] (octomap_server2) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.190782] (octomap_server2) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[1.192312] (octomap_server2) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[1.194324] (octomap_server2) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[1.195723] (octomap_server2) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[1.201344] (-) TimerEvent: {}
+[1.203293] (octomap_server2) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.206544] (octomap_server2) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[1.208869] (octomap_server2) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[1.212103] (octomap_server2) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[1.263282] (octomap_server2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.271863] (octomap_server2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.293837] (octomap_server2) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.294457] (octomap_server2) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[1.294503] (octomap_server2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.301439] (-) TimerEvent: {}
+[1.330399] (octomap_server2) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[1.330502] (octomap_server2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.330589] (octomap_server2) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.401622] (-) TimerEvent: {}
+[1.417959] (octomap_server2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.422110] (octomap_server2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.426174] (octomap_server2) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.501772] (-) TimerEvent: {}
+[1.519430] (octomap_server2) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.601878] (-) TimerEvent: {}
+[1.610296] (octomap_server2) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.697759] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.698266] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[1.698359] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.698915] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[1.698954] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.699415] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[1.699455] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.699914] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[1.699958] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.700426] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[1.700467] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.700951] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[1.700985] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.701033] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[1.701068] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.701176] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[1.701241] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.701675] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[1.701788] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.701926] (-) TimerEvent: {}
+[1.702210] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[1.702331] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.702762] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[1.702817] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.703253] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[1.703390] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.703805] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[1.703943] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.704396] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[1.704488] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.704942] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[1.705051] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.705505] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[1.705605] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.706039] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[1.706121] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.706543] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[1.706687] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.707130] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[1.707194] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.707621] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[1.707936] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.708104] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[1.708163] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[1.708299] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[1.708480] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.708637] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[1.708695] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.709159] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[1.709252] (octomap_server2) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.709700] (octomap_server2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[1.710166] (octomap_server2) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.10") \n'}
+[1.711082] (octomap_server2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.729028] (octomap_server2) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.738768] (octomap_server2) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.750242] (octomap_server2) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.802056] (-) TimerEvent: {}
+[1.902358] (-) TimerEvent: {}
+[1.917282] (octomap_server2) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[1.970901] (octomap_server2) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[1.971098] (octomap_server2) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[1.972684] (octomap_server2) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.990706] (octomap_server2) StdoutLine: {'line': b'-- Found octomap_msgs: 2.0.1 (/opt/ros/humble/share/octomap_msgs/cmake)\n'}
+[1.999737] (octomap_server2) StdoutLine: {'line': b'-- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.002401] (octomap_server2) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.002495] (-) TimerEvent: {}
+[2.039083] (octomap_server2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.11 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.046500] (octomap_server2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.047783] (octomap_server2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.047913] (octomap_server2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.093748] (octomap_server2) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.102711] (-) TimerEvent: {}
+[2.131404] (octomap_server2) StdoutLine: {'line': b'-- Generating done\n'}
+[2.140995] (octomap_server2) StdoutLine: {'line': b'-- Build files have been written to: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2\n'}
+[2.152181] (octomap_server2) CommandEnded: {'returncode': 0}
+[2.152699] (octomap_server2) JobProgress: {'identifier': 'octomap_server2', 'progress': 'build'}
+[2.153253] (octomap_server2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2', '--', '-j20', '-l20'], 'cwd': '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root1'), ('LC_TIME', 'ur_PK'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/root1/ompl/build/src/ompl:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/root1'), ('OLDPWD', '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ur_PK'), ('MANAGERPID', '2101'), ('SYSTEMD_EXEC_PID', '379461'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '380249'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/root1/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root1'), ('JOURNAL_STREAM', '8:3859333'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'root1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/root1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/root1-OptiPlex-5000:@/tmp/.ICE-unix/379432,unix/root1-OptiPlex-5000:/tmp/.ICE-unix/379432'), ('INVOCATION_ID', '132605c3db514ff3a8a5c0bbb5a5e44b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ur_PK'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ur_PK'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T5I442'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ur_PK'), ('TERMINATOR_UUID', 'urn:uuid:75a3e1b2-1d6b-467b-b255-ed2987b1c584'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ur_PK'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ur_PK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/root1/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ur_PK'), ('LC_PAPER', 'ur_PK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/usr/local:/usr/local:/opt/ros/humble')]), 'shell': False}
+[2.186680] (octomap_server2) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/octomap_server.dir/rclcpp_components/node_main_octomap_server.cpp.o\x1b[0m\n'}
+[2.188586] (octomap_server2) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/octomap_server2.dir/src/transforms.cpp.o\x1b[0m\n'}
+[2.188757] (octomap_server2) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/octomap_server2.dir/src/load_octomap_node.cpp.o\x1b[0m\n'}
+[2.188837] (octomap_server2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/octomap_server2.dir/src/conversions.cpp.o\x1b[0m\n'}
+[2.188910] (octomap_server2) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/octomap_analyzer.dir/src/octomap_analyzer.cpp.o\x1b[0m\n'}
+[2.188982] (octomap_server2) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/octomap_server2.dir/src/octomap_server.cpp.o\x1b[0m\n'}
+[2.202807] (-) TimerEvent: {}
+[2.298598] (octomap_server2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/conversions.h:50\x1b[m\x1b[K,\n'}
+[2.298779] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/conversions.cpp:40\x1b[m\x1b[K:\n'}
+[2.298847] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.298912] (octomap_server2) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[2.298972] (octomap_server2) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.302898] (-) TimerEvent: {}
+[2.403188] (-) TimerEvent: {}
+[2.503709] (-) TimerEvent: {}
+[2.604190] (-) TimerEvent: {}
+[2.704650] (-) TimerEvent: {}
+[2.805072] (-) TimerEvent: {}
+[2.905413] (-) TimerEvent: {}
+[3.005888] (-) TimerEvent: {}
+[3.106453] (-) TimerEvent: {}
+[3.207021] (-) TimerEvent: {}
+[3.307335] (-) TimerEvent: {}
+[3.407633] (-) TimerEvent: {}
+[3.445177] (octomap_server2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/conversions.h:50\x1b[m\x1b[K,\n'}
+[3.445404] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:51\x1b[m\x1b[K,\n'}
+[3.445464] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/load_octomap_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.445493] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.445527] (octomap_server2) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[3.445564] (octomap_server2) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.445592] (octomap_server2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/conversions.h:50\x1b[m\x1b[K,\n'}
+[3.445623] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:51\x1b[m\x1b[K,\n'}
+[3.445647] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:2\x1b[m\x1b[K:\n'}
+[3.445669] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.445692] (octomap_server2) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[3.445714] (octomap_server2) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.507772] (-) TimerEvent: {}
+[3.608161] (-) TimerEvent: {}
+[3.708610] (-) TimerEvent: {}
+[3.809007] (-) TimerEvent: {}
+[3.909420] (-) TimerEvent: {}
+[3.953501] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_analyzer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OctomapAnalyzer::octomapCallback(octomap_msgs::msg::Octomap_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.953759] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_analyzer.cpp:71:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktotal_cells\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.953852] (octomap_server2) StderrLine: {'line': b'   71 |         int \x1b[01;35m\x1b[Ktotal_cells\x1b[m\x1b[K = 0;\n'}
+[3.953923] (octomap_server2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.009577] (-) TimerEvent: {}
+[4.074146] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/conversions.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid octomap::pointsOctomapToPointCloud2(const point3d_list&, sensor_msgs::msg::PointCloud2&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.074371] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/conversions.cpp:53:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpoints\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.074466] (octomap_server2) StderrLine: {'line': b'   53 |     void pointsOctomapToPointCloud2(\x1b[01;35m\x1b[Kconst point3d_list& points\x1b[m\x1b[K,\n'}
+[4.074536] (octomap_server2) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.109647] (-) TimerEvent: {}
+[4.209938] (-) TimerEvent: {}
+[4.310251] (-) TimerEvent: {}
+[4.335065] (octomap_server2) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX executable octomap_server\x1b[0m\n'}
+[4.410382] (-) TimerEvent: {}
+[4.432407] (octomap_server2) StdoutLine: {'line': b'[ 63%] Built target octomap_server\n'}
+[4.510486] (-) TimerEvent: {}
+[4.610743] (-) TimerEvent: {}
+[4.710989] (-) TimerEvent: {}
+[4.811259] (-) TimerEvent: {}
+[4.911507] (-) TimerEvent: {}
+[5.012006] (-) TimerEvent: {}
+[5.112518] (-) TimerEvent: {}
+[5.212802] (-) TimerEvent: {}
+[5.313076] (-) TimerEvent: {}
+[5.413372] (-) TimerEvent: {}
+[5.513630] (-) TimerEvent: {}
+[5.613907] (-) TimerEvent: {}
+[5.714137] (-) TimerEvent: {}
+[5.814433] (-) TimerEvent: {}
+[5.914737] (-) TimerEvent: {}
+[6.015046] (-) TimerEvent: {}
+[6.069814] (octomap_server2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/load_octomap_node.cpp:1\x1b[m\x1b[K:\n'}
+[6.069935] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void octomap_server::OctomapServer::handleNode(const iterator&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.069965] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:210:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kit\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.069991] (octomap_server2) StderrLine: {'line': b'  210 |         virtual void handleNode(\x1b[01;35m\x1b[Kconst OcTreeT::iterator& it\x1b[m\x1b[K) {};\n'}
+[6.070014] (octomap_server2) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[6.070036] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void octomap_server::OctomapServer::handleNodeInBBX(const iterator&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.070058] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:211:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kit\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.070087] (octomap_server2) StderrLine: {'line': b'  211 |         virtual void handleNodeInBBX(\x1b[01;35m\x1b[Kconst OcTreeT::iterator& it\x1b[m\x1b[K) {};\n'}
+[6.070108] (octomap_server2) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[6.077907] (octomap_server2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:2\x1b[m\x1b[K:\n'}
+[6.078006] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void octomap_server::OctomapServer::handleNode(const iterator&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.078036] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:210:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kit\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.078066] (octomap_server2) StderrLine: {'line': b'  210 | \x1b[01;35m\x1b[KcTreeT::iterator& it\x1b[m\x1b[K) {};\n'}
+[6.078088] (octomap_server2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[6.078110] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.078130] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void octomap_server::OctomapServer::handleNodeInBBX(const iterator&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.078152] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:211:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kit\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.078176] (octomap_server2) StderrLine: {'line': b'  211 | \x1b[01;35m\x1b[KcTreeT::iterator& it\x1b[m\x1b[K) {};\n'}
+[6.078197] (octomap_server2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[6.078218] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.078238] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Koctomap_server::OctomapServer::OctomapServer(const rclcpp::NodeOptions&, std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.078261] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:148:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koctomap_server::OctomapServer::m_useColoredMap\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.078283] (octomap_server2) StderrLine: {'line': b'  148 |         bool \x1b[01;35m\x1b[Km_useColoredMap\x1b[m\x1b[K;\n'}
+[6.078303] (octomap_server2) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.078322] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:118:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kdouble octomap_server::OctomapServer::m_colorFactor\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.078345] (octomap_server2) StderrLine: {'line': b'  118 |        double \x1b[01;35m\x1b[Km_colorFactor\x1b[m\x1b[K;\n'}
+[6.078365] (octomap_server2) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.078384] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.078402] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:5:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.078423] (octomap_server2) StderrLine: {'line': b'    5 |     \x1b[01;35m\x1b[KOctomapServer\x1b[m\x1b[K::OctomapServer(\n'}
+[6.078441] (octomap_server2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.115216] (-) TimerEvent: {}
+[6.134531] (octomap_server2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[6.134687] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.134748] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.134802] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.134863] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.134916] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.134968] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.135018] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.135069] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.135119] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.135169] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.135219] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:8\x1b[m\x1b[K,\n'}
+[6.135274] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:2\x1b[m\x1b[K:\n'}
+[6.135325] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void octomap_server::OctomapServer::insertCloudCallback(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.135377] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:342:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.135435] (octomap_server2) StderrLine: {'line': b'  342 | get_logger(), \x1b[01;35m\x1b[K"%s %"\x1b[m\x1b[K, msg, ex.what());\n'}
+[6.135486] (octomap_server2) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.135536] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.135599] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:342:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[6.135651] (octomap_server2) StderrLine: {'line': b'  342 | t_logger(), "\x1b[01;36m\x1b[K%s\x1b[m\x1b[K %", msg, ex.what());\n'}
+[6.135702] (octomap_server2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[6.135755] (octomap_server2) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[6.135806] (octomap_server2) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[6.135855] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.135905] (octomap_server2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[6.135955] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.136006] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.136056] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.136106] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.136155] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.136205] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.136255] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.136305] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.136354] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.136404] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.136454] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:8\x1b[m\x1b[K,\n'}
+[6.136504] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:2\x1b[m\x1b[K:\n'}
+[6.136559] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:342:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kspurious trailing \xe2\x80\x98\x1b[01m\x1b[K%\x1b[m\x1b[K\xe2\x80\x99 in format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.136622] (octomap_server2) StderrLine: {'line': b'  342 | get_logger(), \x1b[01;35m\x1b[K"%s %"\x1b[m\x1b[K, msg, ex.what());\n'}
+[6.136672] (octomap_server2) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.136721] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.136771] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:342:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[6.136821] (octomap_server2) StderrLine: {'line': b'  342 | logger(), "%s \x1b[01;36m\x1b[K%\x1b[m\x1b[K", msg, ex.what());\n'}
+[6.136871] (octomap_server2) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[6.136921] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.136970] (octomap_server2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[6.137021] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.137072] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.137122] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.137172] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.137221] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.137271] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.137322] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.137372] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.137423] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.137472] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.137522] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:8\x1b[m\x1b[K,\n'}
+[6.137579] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:2\x1b[m\x1b[K:\n'}
+[6.137631] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:342:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Ktoo many arguments for format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args\x07-Wformat-extra-args\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.137686] (octomap_server2) StderrLine: {'line': b'  342 | get_logger(), \x1b[01;35m\x1b[K"%s %"\x1b[m\x1b[K, msg, ex.what());\n'}
+[6.137738] (octomap_server2) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[6.137788] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.141754] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void octomap_server::OctomapServer::publishAll(const rclcpp::Time&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.141962] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:616:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.142029] (octomap_server2) StderrLine: {'line': b'  616 |        double \x1b[01;35m\x1b[Ksize\x1b[m\x1b[K = it.getSize();\n'}
+[6.142083] (octomap_server2) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.142135] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.146413] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool octomap_server::OctomapServer::octomapBinarySrv(std::shared_ptr<octomap_msgs::srv::GetOctomap_Request_<std::allocator<void> > >, std::shared_ptr<octomap_msgs::srv::GetOctomap_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.146575] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:803:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.146641] (octomap_server2) StderrLine: {'line': b'  803 | \x1b[01;35m\x1b[KOctomapSrv::Request> req\x1b[m\x1b[K,\n'}
+[6.146695] (octomap_server2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.146751] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.146926] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual bool octomap_server::OctomapServer::octomapFullSrv(std::shared_ptr<octomap_msgs::srv::GetOctomap_Request_<std::allocator<void> > >, std::shared_ptr<octomap_msgs::srv::GetOctomap_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.147020] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:822:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.147085] (octomap_server2) StderrLine: {'line': b'  822 | \x1b[01;35m\x1b[KOctomapSrv::Request> req\x1b[m\x1b[K,\n'}
+[6.147140] (octomap_server2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.147193] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.149679] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool octomap_server::OctomapServer::clearBBXSrv(std::shared_ptr<octomap_msgs::srv::BoundingBoxQuery_Request_<std::allocator<void> > >, std::shared_ptr<octomap_msgs::srv::BoundingBoxQuery_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.149838] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:837:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.149899] (octomap_server2) StderrLine: {'line': b'  837 | \x1b[01;35m\x1b[KBBXSrv::Response> resp\x1b[m\x1b[K) {\n'}
+[6.149954] (octomap_server2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[6.150005] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.152416] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool octomap_server::OctomapServer::resetSrv(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.152679] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:875:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<visualization_msgs::msg::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::msg::Marker_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.152767] (octomap_server2) StderrLine: {'line': b'  875 | auto i = 0; \x1b[01;35m\x1b[Ki < occupiedNodesVis.markers.size()\x1b[m\x1b[K; ++i){\n'}
+[6.152828] (octomap_server2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.152886] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.153044] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:891:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<visualization_msgs::msg::Marker_<std::allocator<void> >, std::allocator<visualization_msgs::msg::Marker_<std::allocator<void> > > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.153114] (octomap_server2) StderrLine: {'line': b'  891 | auto i = 0; \x1b[01;35m\x1b[Ki < freeNodesVis.markers.size()\x1b[m\x1b[K; ++i) {\n'}
+[6.153170] (octomap_server2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.153223] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.153276] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:855:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.153337] (octomap_server2) StderrLine: {'line': b'  855 | \x1b[01;35m\x1b[Ksrv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[6.153388] (octomap_server2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[6.153438] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.153488] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:856:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.153581] (octomap_server2) StderrLine: {'line': b'  856 | \x1b[01;35m\x1b[K:Empty::Response> resp\x1b[m\x1b[K) {\n'}
+[6.153691] (octomap_server2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[6.153721] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.167388] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void octomap_server::OctomapServer::handlePreNodeTraversal(const rclcpp::Time&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.167636] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:1183:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.167709] (octomap_server2) StderrLine: {'line': b' 1183 | ateBBXMinY; \x1b[01;35m\x1b[Kj <= mapUpdateBBXMaxY\x1b[m\x1b[K; ++j) {\n'}
+[6.167765] (octomap_server2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.167819] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.168094] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void octomap_server::OctomapServer::handlePostNodeTraversal(const rclcpp::Time&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.168185] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_server.cpp:1193:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krostime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.168250] (octomap_server2) StderrLine: {'line': b' 1193 | \x1b[01;35m\x1b[Kt rclcpp::Time& rostime\x1b[m\x1b[K){\n'}
+[6.168308] (octomap_server2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[6.168364] (octomap_server2) StderrLine: {'line': b'\n'}
+[6.215351] (-) TimerEvent: {}
+[6.315729] (-) TimerEvent: {}
+[6.415992] (-) TimerEvent: {}
+[6.516353] (-) TimerEvent: {}
+[6.616647] (-) TimerEvent: {}
+[6.717048] (-) TimerEvent: {}
+[6.817348] (-) TimerEvent: {}
+[6.917700] (-) TimerEvent: {}
+[7.018051] (-) TimerEvent: {}
+[7.118418] (-) TimerEvent: {}
+[7.218798] (-) TimerEvent: {}
+[7.319083] (-) TimerEvent: {}
+[7.321434] (octomap_server2) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable octomap_analyzer\x1b[0m\n'}
+[7.419290] (-) TimerEvent: {}
+[7.519647] (-) TimerEvent: {}
+[7.532331] (octomap_server2) StdoutLine: {'line': b'[ 72%] Built target octomap_analyzer\n'}
+[7.619788] (-) TimerEvent: {}
+[7.720148] (-) TimerEvent: {}
+[7.820493] (-) TimerEvent: {}
+[7.920776] (-) TimerEvent: {}
+[8.021078] (-) TimerEvent: {}
+[8.121408] (-) TimerEvent: {}
+[8.221702] (-) TimerEvent: {}
+[8.321981] (-) TimerEvent: {}
+[8.422251] (-) TimerEvent: {}
+[8.522590] (-) TimerEvent: {}
+[8.622919] (-) TimerEvent: {}
+[8.723160] (-) TimerEvent: {}
+[8.823406] (-) TimerEvent: {}
+[8.923627] (-) TimerEvent: {}
+[9.023822] (-) TimerEvent: {}
+[9.124029] (-) TimerEvent: {}
+[9.224244] (-) TimerEvent: {}
+[9.324499] (-) TimerEvent: {}
+[9.424711] (-) TimerEvent: {}
+[9.524939] (-) TimerEvent: {}
+[9.625168] (-) TimerEvent: {}
+[9.725340] (-) TimerEvent: {}
+[9.825543] (-) TimerEvent: {}
+[9.925734] (-) TimerEvent: {}
+[10.025944] (-) TimerEvent: {}
+[10.126147] (-) TimerEvent: {}
+[10.226354] (-) TimerEvent: {}
+[10.326588] (-) TimerEvent: {}
+[10.426791] (-) TimerEvent: {}
+[10.527009] (-) TimerEvent: {}
+[10.627255] (-) TimerEvent: {}
+[10.727497] (-) TimerEvent: {}
+[10.827765] (-) TimerEvent: {}
+[10.928084] (-) TimerEvent: {}
+[11.028377] (-) TimerEvent: {}
+[11.128704] (-) TimerEvent: {}
+[11.228989] (-) TimerEvent: {}
+[11.329261] (-) TimerEvent: {}
+[11.429597] (-) TimerEvent: {}
+[11.529877] (-) TimerEvent: {}
+[11.630133] (-) TimerEvent: {}
+[11.730432] (-) TimerEvent: {}
+[11.830696] (-) TimerEvent: {}
+[11.930969] (-) TimerEvent: {}
+[12.031233] (-) TimerEvent: {}
+[12.131522] (-) TimerEvent: {}
+[12.231820] (-) TimerEvent: {}
+[12.332135] (-) TimerEvent: {}
+[12.432409] (-) TimerEvent: {}
+[12.532689] (-) TimerEvent: {}
+[12.632973] (-) TimerEvent: {}
+[12.733355] (-) TimerEvent: {}
+[12.833612] (-) TimerEvent: {}
+[12.933889] (-) TimerEvent: {}
+[13.034202] (-) TimerEvent: {}
+[13.134529] (-) TimerEvent: {}
+[13.234886] (-) TimerEvent: {}
+[13.335170] (-) TimerEvent: {}
+[13.435443] (-) TimerEvent: {}
+[13.535762] (-) TimerEvent: {}
+[13.636044] (-) TimerEvent: {}
+[13.736328] (-) TimerEvent: {}
+[13.836582] (-) TimerEvent: {}
+[13.936828] (-) TimerEvent: {}
+[14.037080] (-) TimerEvent: {}
+[14.137355] (-) TimerEvent: {}
+[14.237640] (-) TimerEvent: {}
+[14.338043] (-) TimerEvent: {}
+[14.438513] (-) TimerEvent: {}
+[14.539047] (-) TimerEvent: {}
+[14.639413] (-) TimerEvent: {}
+[14.739704] (-) TimerEvent: {}
+[14.814204] (octomap_server2) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library liboctomap_server2.so\x1b[0m\n'}
+[14.839812] (-) TimerEvent: {}
+[14.940118] (-) TimerEvent: {}
+[15.040447] (-) TimerEvent: {}
+[15.140788] (-) TimerEvent: {}
+[15.241219] (-) TimerEvent: {}
+[15.341808] (-) TimerEvent: {}
+[15.442212] (-) TimerEvent: {}
+[15.542695] (-) TimerEvent: {}
+[15.643137] (-) TimerEvent: {}
+[15.743399] (-) TimerEvent: {}
+[15.843712] (-) TimerEvent: {}
+[15.944042] (-) TimerEvent: {}
+[16.044314] (-) TimerEvent: {}
+[16.144617] (-) TimerEvent: {}
+[16.223795] (octomap_server2) StdoutLine: {'line': b'[ 81%] Built target octomap_server2\n'}
+[16.241666] (octomap_server2) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/load_octomap_node.dir/src/load_octomap_node.cpp.o\x1b[0m\n'}
+[16.244690] (-) TimerEvent: {}
+[16.344907] (-) TimerEvent: {}
+[16.445162] (-) TimerEvent: {}
+[16.545434] (-) TimerEvent: {}
+[16.645696] (-) TimerEvent: {}
+[16.746026] (-) TimerEvent: {}
+[16.846274] (-) TimerEvent: {}
+[16.946511] (-) TimerEvent: {}
+[17.046744] (-) TimerEvent: {}
+[17.146994] (-) TimerEvent: {}
+[17.247232] (-) TimerEvent: {}
+[17.347484] (-) TimerEvent: {}
+[17.410601] (octomap_server2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/conversions.h:50\x1b[m\x1b[K,\n'}
+[17.410720] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:51\x1b[m\x1b[K,\n'}
+[17.410762] (octomap_server2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/load_octomap_node.cpp:1\x1b[m\x1b[K:\n'}
+[17.410787] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.410813] (octomap_server2) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[17.410835] (octomap_server2) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[17.447584] (-) TimerEvent: {}
+[17.547772] (-) TimerEvent: {}
+[17.648091] (-) TimerEvent: {}
+[17.748341] (-) TimerEvent: {}
+[17.848606] (-) TimerEvent: {}
+[17.948868] (-) TimerEvent: {}
+[18.049131] (-) TimerEvent: {}
+[18.149370] (-) TimerEvent: {}
+[18.249604] (-) TimerEvent: {}
+[18.349849] (-) TimerEvent: {}
+[18.450090] (-) TimerEvent: {}
+[18.550354] (-) TimerEvent: {}
+[18.650602] (-) TimerEvent: {}
+[18.750839] (-) TimerEvent: {}
+[18.851089] (-) TimerEvent: {}
+[18.951377] (-) TimerEvent: {}
+[19.051607] (-) TimerEvent: {}
+[19.151851] (-) TimerEvent: {}
+[19.252120] (-) TimerEvent: {}
+[19.352338] (-) TimerEvent: {}
+[19.452505] (-) TimerEvent: {}
+[19.552631] (-) TimerEvent: {}
+[19.652749] (-) TimerEvent: {}
+[19.704115] (octomap_server2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/load_octomap_node.cpp:1\x1b[m\x1b[K:\n'}
+[19.704236] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void octomap_server::OctomapServer::handleNode(const iterator&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.704268] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:210:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kit\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.704303] (octomap_server2) StderrLine: {'line': b'  210 | \x1b[01;35m\x1b[KcTreeT::iterator& it\x1b[m\x1b[K) {};\n'}
+[19.704327] (octomap_server2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[19.704351] (octomap_server2) StderrLine: {'line': b'\n'}
+[19.704373] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void octomap_server::OctomapServer::handleNodeInBBX(const iterator&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.704397] (octomap_server2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/include/octomap_server2/octomap_server.hpp:211:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kit\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[19.704421] (octomap_server2) StderrLine: {'line': b'  211 | \x1b[01;35m\x1b[KcTreeT::iterator& it\x1b[m\x1b[K) {};\n'}
+[19.704442] (octomap_server2) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[19.704463] (octomap_server2) StderrLine: {'line': b'\n'}
+[19.752825] (-) TimerEvent: {}
+[19.852998] (-) TimerEvent: {}
+[19.953147] (-) TimerEvent: {}
+[20.053297] (-) TimerEvent: {}
+[20.153442] (-) TimerEvent: {}
+[20.253591] (-) TimerEvent: {}
+[20.353712] (-) TimerEvent: {}
+[20.430780] (octomap_server2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable load_octomap_node\x1b[0m\n'}
+[20.453775] (-) TimerEvent: {}
+[20.553936] (-) TimerEvent: {}
+[20.654082] (-) TimerEvent: {}
+[20.754221] (-) TimerEvent: {}
+[20.854350] (-) TimerEvent: {}
+[20.954494] (-) TimerEvent: {}
+[21.054650] (-) TimerEvent: {}
+[21.154792] (-) TimerEvent: {}
+[21.255039] (-) TimerEvent: {}
+[21.355287] (-) TimerEvent: {}
+[21.455555] (-) TimerEvent: {}
+[21.555759] (-) TimerEvent: {}
+[21.655925] (-) TimerEvent: {}
+[21.756134] (-) TimerEvent: {}
+[21.856389] (-) TimerEvent: {}
+[21.956671] (-) TimerEvent: {}
+[21.988019] (octomap_server2) StdoutLine: {'line': b'[100%] Built target load_octomap_node\n'}
+[21.994923] (octomap_server2) CommandEnded: {'returncode': 0}
+[21.995427] (octomap_server2) JobProgress: {'identifier': 'octomap_server2', 'progress': 'install'}
+[22.000819] (octomap_server2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2'], 'cwd': '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root1'), ('LC_TIME', 'ur_PK'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/root1/ompl/build/src/ompl:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/root1'), ('OLDPWD', '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ur_PK'), ('MANAGERPID', '2101'), ('SYSTEMD_EXEC_PID', '379461'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '380249'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/root1/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root1'), ('JOURNAL_STREAM', '8:3859333'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'root1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/root1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/root1-OptiPlex-5000:@/tmp/.ICE-unix/379432,unix/root1-OptiPlex-5000:/tmp/.ICE-unix/379432'), ('INVOCATION_ID', '132605c3db514ff3a8a5c0bbb5a5e44b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ur_PK'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ur_PK'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T5I442'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ur_PK'), ('TERMINATOR_UUID', 'urn:uuid:75a3e1b2-1d6b-467b-b255-ed2987b1c584'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ur_PK'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ur_PK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/build/octomap_server2'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/root1/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ur_PK'), ('LC_PAPER', 'ur_PK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', ':/usr/local:/usr/local:/opt/ros/humble')]), 'shell': False}
+[22.008027] (octomap_server2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.008357] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/octomap_server\n'}
+[22.008871] (octomap_server2) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/octomap_server" to ""\n'}
+[22.009093] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/liboctomap_server2.so\n'}
+[22.015712] (octomap_server2) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/liboctomap_server2.so" to ""\n'}
+[22.015775] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/load_octomap_node\n'}
+[22.015937] (octomap_server2) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/load_octomap_node" to ""\n'}
+[22.015983] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/octomap_analyzer\n'}
+[22.017564] (octomap_server2) StdoutLine: {'line': b'-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/octomap_analyzer" to ""\n'}
+[22.017616] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2//launch\n'}
+[22.017655] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2//launch/octomap_server_launch.py\n'}
+[22.017688] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2//launch/load_octomap.launch.py\n'}
+[22.017733] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2//maps\n'}
+[22.017764] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2//maps/map2.ot\n'}
+[22.034572] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/ament_index/resource_index/package_run_dependencies/octomap_server2\n'}
+[22.034728] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/ament_index/resource_index/parent_prefix_path/octomap_server2\n'}
+[22.034769] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/environment/ament_prefix_path.sh\n'}
+[22.034818] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/environment/ament_prefix_path.dsv\n'}
+[22.034866] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/environment/path.sh\n'}
+[22.034978] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/environment/path.dsv\n'}
+[22.035026] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/local_setup.bash\n'}
+[22.035068] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/local_setup.sh\n'}
+[22.035109] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/local_setup.zsh\n'}
+[22.035150] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/local_setup.dsv\n'}
+[22.035189] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/package.dsv\n'}
+[22.035250] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/ament_index/resource_index/packages/octomap_server2\n'}
+[22.035307] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/ament_index/resource_index/rclcpp_components/octomap_server2\n'}
+[22.035390] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/cmake/octomap_server2Config.cmake\n'}
+[22.035446] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/cmake/octomap_server2Config-version.cmake\n'}
+[22.035533] (octomap_server2) StdoutLine: {'line': b'-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/package.xml\n'}
+[22.036760] (octomap_server2) CommandEnded: {'returncode': 0}
+[22.047890] (octomap_server2) JobEnded: {'identifier': 'octomap_server2', 'rc': 0}
+[22.048419] (-) EventReactorShutdown: {}

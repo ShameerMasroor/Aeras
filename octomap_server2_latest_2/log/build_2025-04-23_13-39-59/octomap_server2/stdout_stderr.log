@@ -1,0 +1,41 @@
+[35m[1mConsolidate compiler generated dependencies of target octomap_server[0m
+[35m[1mConsolidate compiler generated dependencies of target octomap_analyzer[0m
+[35m[1mConsolidate compiler generated dependencies of target octomap_server2[0m
+[ 27%] Built target octomap_server
+[ 27%] [32mBuilding CXX object CMakeFiles/octomap_analyzer.dir/src/octomap_analyzer.cpp.o[0m
+[ 72%] Built target octomap_server2
+[35m[1mConsolidate compiler generated dependencies of target load_octomap_node[0m
+[ 90%] Built target load_octomap_node
+[01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_analyzer.cpp:[m[K In member function ‘[01m[Kvoid OctomapAnalyzer::octomapCallback(octomap_msgs::msg::Octomap_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/octomap_server2/src/octomap_analyzer.cpp:87:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktotal_cells[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   87 |         int [01;35m[Ktotal_cells[m[K = 0;
+      |             [01;35m[K^~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable octomap_analyzer[0m
+[100%] Built target octomap_analyzer
+-- Install configuration: ""
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/octomap_server
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/liboctomap_server2.so
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/load_octomap_node
+-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/octomap_analyzer
+-- Set runtime path of "/home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/lib/octomap_server2/octomap_analyzer" to ""
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2//launch
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2//launch/octomap_server_launch.py
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2//launch/load_octomap.launch.py
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2//maps
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2//maps/map2.ot
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/ament_index/resource_index/package_run_dependencies/octomap_server2
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/ament_index/resource_index/parent_prefix_path/octomap_server2
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/environment/path.sh
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/environment/path.dsv
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/local_setup.bash
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/local_setup.sh
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/local_setup.zsh
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/local_setup.dsv
+-- Installing: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/package.dsv
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/ament_index/resource_index/packages/octomap_server2
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/ament_index/resource_index/rclcpp_components/octomap_server2
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/cmake/octomap_server2Config.cmake
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/cmake/octomap_server2Config-version.cmake
+-- Up-to-date: /home/root1/Documents/January_Work/Multi-UAV-System-for-Forest-SAR/octomap_server2_latest_2/install/octomap_server2/share/octomap_server2/package.xml
