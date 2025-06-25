@@ -1,2 +1,0 @@
-/usr/bin/ar qc libompl_example_2d_library.a CMakeFiles/ompl_example_2d_library.dir/src/ompl_example_2d.cpp.o
-/usr/bin/ranlib libompl_example_2d_library.a
