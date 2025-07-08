@@ -1,0 +1,8 @@
+source;share/ompl_example_2d/hook/cmake_prefix_path.ps1
+source;share/ompl_example_2d/hook/cmake_prefix_path.dsv
+source;share/ompl_example_2d/hook/cmake_prefix_path.sh
+source;share/ompl_example_2d/local_setup.bash
+source;share/ompl_example_2d/local_setup.dsv
+source;share/ompl_example_2d/local_setup.ps1
+source;share/ompl_example_2d/local_setup.sh
+source;share/ompl_example_2d/local_setup.zsh
