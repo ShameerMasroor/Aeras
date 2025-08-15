@@ -1,14 +1,14 @@
-# 🌲 AURORA – Multi-UAV SAR System with LI-SLAM & FASTLIO2
+# 🌲 Aeras – Multi-UAV SAR System with LI-SLAM & FASTLIO2
 
-Welcome to **AURORA** – a modular, simulation-ready, multi-UAV system for **Search and Rescue (SAR)** in complex **forest environments**. Developed at **Habib University** as a final-year Capstone Project, AURORA integrates cutting-edge SLAM, path planning, and human detection technologies under one unified framework.
+Welcome to **Aeras** – a modular, simulation-ready, multi-UAV system for **Search and Rescue (SAR)** in complex **forest environments**. Developed at **Habib University** as a final-year Capstone Project, Aeras integrates cutting-edge SLAM, path planning, and human detection technologies under one unified framework.
 
-Built with **ROS2 (Humble)**, **Gazebo Classic**, and real-time LiDAR-thermal SLAM pipelines, AURORA is purpose-designed for GPS-denied, under-canopy scenarios where traditional SAR efforts struggle.
+Built with **ROS2 (Humble)**, **Gazebo Classic**, and real-time LiDAR-thermal SLAM pipelines, Aeras is purpose-designed for GPS-denied, under-canopy scenarios where traditional SAR efforts struggle.
 
 ---
 
 ## 📺 Demo Video
 
-See AURORA in action – live mapping, autonomous flight, and human detection in a simulated dense forest:
+See Aeras in action – live mapping, autonomous flight, and human detection in a simulated dense forest:
 
 [![Demo Video](Thumbnail.png)](https://youtu.be/zFVc0A3nOic)
 
@@ -31,7 +31,7 @@ See AURORA in action – live mapping, autonomous flight, and human detection in
 
 ## 🧭 Overview
 
-**AURORA** addresses the core challenges of forest SAR operations:
+**Aeras** addresses the core challenges of forest SAR operations:
 
 - 🚫 GPS-denied conditions  
 - 🌲 Occlusion from canopy and dense vegetation  
@@ -122,7 +122,7 @@ Our system leverages **LiDAR, IMU, and thermal cameras** mounted on UAVs to enab
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/ShameerMasroor/Aurora-Multi-UAV-System-for-Forest-Search-and-Rescue.git
+git clone https://github.com/ShameerMasroor/Aeras-Multi-UAV-System-for-Forest-Search-and-Rescue.git
 
 
 ---
@@ -130,7 +130,7 @@ git clone https://github.com/ShameerMasroor/Aurora-Multi-UAV-System-for-Forest-S
 ## Docker Image Usage
 
 ```bash
-docker pull shameermasroor/aurora_v2
+docker pull shameermasroor/Aeras_v2
 
 ```
 ## Docker Container Launch Script
@@ -139,7 +139,7 @@ docker pull shameermasroor/aurora_v2
 xhost +local:docker
 
 docker run -it \
-  --name aurora_v2_container \
+  --name Aeras_v2_container \
   --env="DISPLAY=${DISPLAY}" \
   --env="QT_X11_NO_MITSHM=1" \
   --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
@@ -147,7 +147,7 @@ docker run -it \
   --volume="/usr/share/gazebo-11:/usr/share/gazebo-11:ro" \
   --net=host \
   --privileged \
-  shameermasroor/aurora_v2 \
+  shameermasroor/Aeras_v2 \
   bash
 
 
@@ -247,3 +247,4 @@ Mission data is stored in the sjtu_drone package directory under the folder 'Dro
 
 ## People
 This project was lovingly made by Zaryan, Maleeha, and Shameer, who collectively go by the name Zarmasha.
+
